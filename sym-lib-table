@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM5146")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_LM5146RGYR/KiCADv6/2025-08-21_15-55-15.kicad_sym")(options "")(descr ""))
+  (lib (name "BSZ097N10LS5")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_BSZ097N10NS5ATMA1/BSZ097N10LS5.kicad_sym")(options "")(descr ""))
+)
