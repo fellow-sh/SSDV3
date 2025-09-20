@@ -3926,7 +3926,7 @@
 		)
 		(uuid "b08edb97-198b-4e50-be0e-3877cd69763a")
 	)
-	(text "Q2 Alternatives:\n1.  BSZ096N10LS5     100V, Q_{g}=22nC, R_{DS(on)}=9.6mΩ,  $1.3702 USD, SON-8FL 3x3mm, 11.0A no stock\n2.  TPN1200APL       100V, Q_{g}=24nC, R_{DS(on)}=11.5mΩ, $0.8041 USD, SON-8   3x3mm, 11.0A low\n3.  BSZ110N08NS5     80V,  Q_{g}=15nC, R_{DS(on)}=13.4mΩ, $0.8984 USD, SON-8FL 3x3mm, 11.0A\n4.  BSZ097N10NS5     100V, Q_{g}=22nC, R_{DS(on)}=9.7mΩ,  $1.2293 USD, SON-8FL 3x3mm, 11.0A\n4.  ISC0805NLS       100V, Q_{g}=20nC, R_{DS(on)}=7.8mΩ,  $1.0070 USD, SON-8   5x6mm, 13.0A low\n5.  BSC0805LS        100V, Q_{g}=20nC, R_{DS(on)}=7.0mΩ,  $0.4368 USD, SON-8   5x6mm, 14.0A\n6.  BSC117N08NS5     80V,  Q_{g}=12nC, R_{DS(on)}=13.7mΩ, $0.9156 USD, SON-8   5x6mm, 19.0A\n7.  BSC098N10NS5     100V, Q_{g}=17nC, R_{DS(on)}=10.2mΩ, $0.7441 USD, SON-8   5x6mm, 11.0A\n8.  SiR882ADP        100V, Q_{g}=30nC, R_{DS(on)}=7.7mΩ,  $1.4015 USD, SON-8   5x6mm, 17.6A\n9.  SiR876ADP        100V, Q_{g}=26nC, R_{DS(on)}=9.5mΩ,  $1.0008 USD, SON-8   5x6mm, 15.2A\nNVMFS015N10MCL, TPH1400ANH"
+	(text "Q2 Alternatives:\n1.  BSZ096N10LS5     100V, Q_{g}=22nC, R_{DS(on)}=9.6mΩ,  $1.3702 USD, SON-8FL 3x3mm, 11.0A\n2.  TPN1200APL       100V, Q_{g}=24nC, R_{DS(on)}=11.5mΩ, $0.8041 USD, SON-8   3x3mm, 11.0A low\n3.  BSZ110N08NS5     80V,  Q_{g}=15nC, R_{DS(on)}=13.4mΩ, $0.8984 USD, SON-8FL 3x3mm, 11.0A low-ish\n4.  BSZ097N10NS5     100V, Q_{g}=22nC, R_{DS(on)}=9.7mΩ,  $1.2293 USD, SON-8FL 3x3mm, 11.0A\n5.  BSC117N08NS5     80V,  Q_{g}=12nC, R_{DS(on)}=13.7mΩ, $0.9156 USD, SON-8   5x6mm, 19.0A\n6.  ISC0805NLS       100V, Q_{g}=20nC, R_{DS(on)}=7.8mΩ,  $1.0070 USD, SON-8   5x6mm, 13.0A no stock\n7.  BSC0805LS        100V, Q_{g}=20nC, R_{DS(on)}=7.0mΩ,  $0.4368 USD, SON-8   5x6mm, 14.0A\n8.  BSC098N10NS5     100V, Q_{g}=17nC, R_{DS(on)}=10.2mΩ, $0.7441 USD, SON-8   5x6mm, 11.0A\n9.  SiR882ADP        100V, Q_{g}=30nC, R_{DS(on)}=7.7mΩ,  $1.4015 USD, SON-8   5x6mm, 17.6A\n10. SiR876ADP        100V, Q_{g}=26nC, R_{DS(on)}=9.5mΩ,  $1.0008 USD, SON-8   5x6mm, 15.2A\nNVMFS015N10MCL, NVMFS021N10MCL, TPH1400ANH"
 		(exclude_from_sim no)
 		(at 254 25.4 0)
 		(effects
@@ -14079,7 +14079,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b7a599a-eeb8-422e-9da6-8376191dbb68")
 		(property "Reference" "L1"
 			(at 285.75 78.74 90)
@@ -14097,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
 			(at 285.75 85.09 0)
 			(effects
 				(font
@@ -14115,13 +14114,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FXL0630-8R2-M"
-			(at 285.75 85.09 0)
+		(property "Description" "XAL4040-822MEC"
+			(at 285.75 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "FT Rotation Offset" "0"
@@ -14133,7 +14131,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C167222"
+		(property "LCSC PN" "C19191624"
 			(at 285.75 85.09 90)
 			(effects
 				(font
