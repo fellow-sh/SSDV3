@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -495,6 +495,31 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "line_style": 0,
+        "name": "HV Power",
+        "pcb_color": "rgb(142, 7, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "Regular",
+        "pcb_color": "rgb(0, 125, 128)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -502,7 +527,44 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV Power",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "HV Power",
+        "pattern": "VIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SW"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/BST"
+      },
+      {
+        "netclass": "Regular",
+        "pattern": "PGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RBST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ILIM"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/HO"
+      },
+      {
+        "netclass": "HV Power",
+        "pattern": "/U1_VIN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -581,7 +643,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

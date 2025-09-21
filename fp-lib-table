@@ -3,4 +3,5 @@
   (lib (name "SRP1265")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_SRP1265A-4R7M/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "LM5146")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_LM5146RGYR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TSDSON-8")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_BSZ097N10NS5ATMA1/TSDSON-8.pretty")(options "")(descr ""))
+  (lib (name "PA4342-472NLT")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PA4342-472NLT/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
