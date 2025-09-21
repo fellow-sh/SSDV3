@@ -19814,7 +19814,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSC098N10NS5"
+		(property "Value" "BSC0805LS"
 			(at 199.644 144.78 0)
 			(effects
 				(font
@@ -19834,7 +19834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/part/BSC098N10NS5"
+		(property "Datasheet" "https://www.infineon.com/part/BSC0805LS"
 			(at 205.74 152.4 0)
 			(effects
 				(font
@@ -19844,7 +19844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BSC098N10NS5"
+		(property "Description" "BSC0805LS"
 			(at 200.66 148.59 0)
 			(effects
 				(font
@@ -19862,7 +19862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C534398"
+		(property "LCSC PN" "C534374"
 			(at 200.66 148.59 0)
 			(effects
 				(font
