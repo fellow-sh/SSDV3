@@ -2071,6 +2071,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1.5SMCxxCA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5SMCxxCA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1500W bidirectional TVS diode, SMC (DO-201AB)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SMC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1.5SMCxxCA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5SMCxxCA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Graphic:SYM_Hot_Large"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3801,7 +3963,7 @@
 	)
 	(text "V_{IN} = 20~70V (50V Nom)\ntyp. 6-12S Li-Ion/LiPo Battery"
 		(exclude_from_sim no)
-		(at 321.056 96.774 0)
+		(at 332.486 96.774 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3825,7 +3987,7 @@
 		)
 		(uuid "3be8787e-a122-4a92-a115-9f04688de623")
 	)
-	(text "I_{LIM} = 10.7A @ 5V\nI_{LIM} = 12.0A @ 12V"
+	(text "I_{LIM} =  8.9A @ 5V\nI_{LIM} = 10.2A @ 12V"
 		(exclude_from_sim no)
 		(at 182.372 134.112 0)
 		(effects
@@ -4065,7 +4227,7 @@
 		(uuid "16114609-c21d-41ad-a6d6-e107fd691ebe")
 	)
 	(junction
-		(at 309.88 107.95)
+		(at 321.31 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19946805-d322-44dd-a10e-cc7ff91bc778")
@@ -4099,6 +4261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2372501c-28f9-4282-96c6-9aa3ae021164")
+	)
+	(junction
+		(at 309.88 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24cf747d-4ecb-4360-9b8d-0892a339a4c9")
 	)
 	(junction
 		(at 337.82 130.81)
@@ -4171,6 +4339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5efe7009-0eec-4653-8176-48ce0a414ae2")
+	)
+	(junction
+		(at 309.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "645f02ee-327c-4cf7-8e9a-2f8c47fd40aa")
 	)
 	(junction
 		(at 57.15 158.75)
@@ -4323,7 +4497,7 @@
 		(uuid "aa0817b5-078b-4c39-9cfa-803d0835850c")
 	)
 	(junction
-		(at 309.88 85.09)
+		(at 321.31 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac49e56a-318f-4632-8ce6-58ebd42e8940")
@@ -4702,6 +4876,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 107.95) (xy 321.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0799c9-3501-4681-a890-eaeedfc96182")
+	)
+	(wire
+		(pts
 			(xy 236.22 100.33) (xy 236.22 107.95)
 		)
 		(stroke
@@ -4722,7 +4906,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 107.95) (xy 309.88 110.49)
+			(xy 321.31 107.95) (xy 321.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4852,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 85.09) (xy 312.42 85.09)
+			(xy 321.31 85.09) (xy 323.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5502,6 +5686,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 85.09) (xy 321.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b02093f-b1b9-4e36-826e-2f5eb9a4107f")
+	)
+	(wire
+		(pts
 			(xy 262.89 163.83) (xy 262.89 171.45)
 		)
 		(stroke
@@ -5822,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 107.95) (xy 312.42 107.95)
+			(xy 321.31 107.95) (xy 323.85 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5859,6 +6053,16 @@
 			(type default)
 		)
 		(uuid "ac6b67a8-c343-42af-977e-d5efebd8aa69")
+	)
+	(wire
+		(pts
+			(xy 309.88 85.09) (xy 309.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad299204-994a-4736-a78d-526f9832d72c")
 	)
 	(wire
 		(pts
@@ -6462,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 82.55) (xy 309.88 85.09)
+			(xy 321.31 82.55) (xy 321.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6639,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "fd56238c-324d-4d14-b3c5-32bc005b4f49")
+	)
+	(wire
+		(pts
+			(xy 309.88 100.33) (xy 309.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe09a921-971a-42b3-ac61-1b380b8b3b18")
 	)
 	(wire
 		(pts
@@ -7853,7 +8067,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 317.5 85.09 0)
+		(at 328.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7862,7 +8076,7 @@
 		(fields_autoplaced yes)
 		(uuid "02d8708a-7ecb-4202-b50d-3cf1d902657b")
 		(property "Reference" "J1"
-			(at 320.04 83.82 0)
+			(at 331.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +8085,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 320.04 86.36 0)
+			(at 331.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +8094,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
-			(at 317.5 85.09 0)
+			(at 328.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +8103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 85.09 0)
+			(at 328.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +8112,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 85.09 0)
+			(at 328.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8606,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 317.5 107.95 0)
+		(at 328.93 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8401,7 +8615,7 @@
 		(fields_autoplaced yes)
 		(uuid "1355dc33-80db-479b-9a22-788636f890dc")
 		(property "Reference" "J2"
-			(at 320.04 106.68 0)
+			(at 331.47 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8624,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 320.04 109.22 0)
+			(at 331.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8633,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
-			(at 317.5 107.95 0)
+			(at 328.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 107.95 0)
+			(at 328.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8651,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 107.95 0)
+			(at 328.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11485,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "270"
 			(at 175.26 133.35 90)
 			(effects
 				(font
@@ -11297,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF4700T5E"
+		(property "Description" "0603WAF2700T5E"
 			(at 175.26 135.89 0)
 			(effects
 				(font
@@ -11306,7 +11520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C23179"
+		(property "LCSC PN" "C22966"
 			(at 175.26 135.89 90)
 			(effects
 				(font
@@ -11431,7 +11645,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 309.88 82.55 0)
+		(at 321.31 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11440,7 +11654,7 @@
 		(dnp no)
 		(uuid "5121af45-89be-48a3-9ccb-1feee9797689")
 		(property "Reference" "#PWR021"
-			(at 309.88 86.36 0)
+			(at 321.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11663,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 309.88 77.724 0)
+			(at 321.31 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +11671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 82.55 0)
+			(at 321.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 82.55 0)
+			(at 321.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,7 +11689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 309.88 82.55 0)
+			(at 321.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12502,7 +12716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "22pF"
 			(at 171.45 140.9763 0)
 			(effects
 				(font
@@ -12529,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM1885C2A100JA16D"
+		(property "Description" "GCM1885C2A220JA16D"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -12538,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C126575"
+		(property "LCSC PN" "C408549"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -15472,7 +15686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab401fd7-be96-4f4f-92eb-8a85931d44c5")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 353.06 188.2775 90)
 			(effects
 				(font
@@ -15655,7 +15869,7 @@
 		(instances
 			(project "2025_SSDP3A1"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18955,7 +19169,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 309.88 110.49 0)
+		(at 321.31 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18964,7 +19178,7 @@
 		(dnp no)
 		(uuid "f2b59c99-35af-4b75-9a10-a1c18c64ac25")
 		(property "Reference" "#PWR022"
-			(at 309.88 116.84 0)
+			(at 321.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18973,7 +19187,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 309.88 115.316 0)
+			(at 321.31 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18981,7 +19195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 110.49 0)
+			(at 321.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18990,7 +19204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 309.88 110.49 0)
+			(at 321.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18999,7 +19213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 309.88 110.49 0)
+			(at 321.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19791,6 +20005,75 @@
 			(project "2025_SSDP3A1"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1.5SMCxxCA")
+		(at 309.88 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9a322c8-ded9-4e01-958e-942478a90bf6")
+		(property "Reference" "D1"
+			(at 312.42 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "70V"
+			(at 312.42 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+			(at 309.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMCJ70CA"
+			(at 312.42 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f95aeb2f-8a22-4b05-8e83-c15ca928fb22")
+		)
+		(pin "1"
+			(uuid "28c797d3-15de-4025-bbeb-c164de772c26")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "D1")
 					(unit 1)
 				)
 			)
