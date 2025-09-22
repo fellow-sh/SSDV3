@@ -3,3 +3,7 @@ production/
 
 *.zip
 
+# ltspice output files
+*.log
+*.raw
+*.net
