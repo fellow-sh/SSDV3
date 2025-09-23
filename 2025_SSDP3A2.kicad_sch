@@ -3987,7 +3987,7 @@
 		)
 		(uuid "3be8787e-a122-4a92-a115-9f04688de623")
 	)
-	(text "I_{LIM} =  8.9A @ 5V\nI_{LIM} = 10.2A @ 12V"
+	(text "I_{LIM} = 10.6A @ 5V\nI_{LIM} = 11.9A @ 12V"
 		(exclude_from_sim no)
 		(at 182.372 134.112 0)
 		(effects
