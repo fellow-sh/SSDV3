@@ -1320,7 +1320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/part/BSC0805LS"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc0805ls-datasheet-en.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2560,7 +2560,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "8ced907e-98dc-44ae-a3de-22e1f81eab14")
 		)
 		(pad "5" thru_hole circle
 			(at -0.75 0.6 180)
@@ -2572,7 +2572,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "8ffd7dff-1a4f-4058-a621-427fe74c7162")
 		)
 		(pad "5" thru_hole circle
 			(at -0.75 1.8 180)
@@ -2584,7 +2584,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "8f617a78-4dea-4d98-9b2c-fab108eef5a9")
 		)
 		(pad "5" thru_hole circle
 			(at 0.65 -1.8 180)
@@ -2596,7 +2596,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "6147ce47-e17a-46cc-8e68-85023202fa3a")
 		)
 		(pad "5" thru_hole circle
 			(at 0.65 -0.6 180)
@@ -2608,7 +2608,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "c2a86881-8012-4418-bb81-901d127a7f07")
 		)
 		(pad "5" thru_hole circle
 			(at 0.65 0.6 180)
@@ -2620,7 +2620,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "96ce2b10-f04d-4c81-ac5c-9ff7dca01ea0")
 		)
 		(pad "5" thru_hole circle
 			(at 0.65 1.8 180)
@@ -2632,7 +2632,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "da86cdd6-1241-45b2-abfa-963791780630")
 		)
 		(pad "5" smd rect
 			(at 1.05 0 180)
@@ -2641,7 +2641,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "1f8aac94-629b-49a5-8bb6-9e23d9a5bb06")
 		)
 		(pad "5" thru_hole circle
 			(at 2.05 -1.8 180)
@@ -2653,7 +2653,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "3f5f5611-b815-407f-9e45-a15585b64574")
 		)
 		(pad "5" thru_hole circle
 			(at 2.05 -0.6 180)
@@ -2665,7 +2665,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "b9cf594c-a61f-4eb9-9fbb-b890c600af2c")
 		)
 		(pad "5" thru_hole circle
 			(at 2.05 0.6 180)
@@ -2677,7 +2677,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "2d7dcf2c-5807-4a46-b87d-53de09af9909")
 		)
 		(pad "5" thru_hole circle
 			(at 2.05 1.8 180)
@@ -2689,7 +2689,7 @@
 			(net 3 "VIN")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "9b968e6f-2f59-49fc-b7b4-dad730671c1e")
+			(uuid "ff220520-d922-40d4-a87b-45212a0e9bac")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.wrl"
@@ -11776,7 +11776,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "47pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "7a5aef51-c2a0-418d-85bf-3c11fdca289f")
@@ -11800,7 +11800,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10C101JB8NNNC"
+		(property "Description" "CL10C470JB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11813,7 +11813,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C14858"
+		(property "LCSC PN" "C1671"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14496,7 +14496,7 @@
 	(footprint "PA4342-472NLT:IND_PA4342_PUL-M"
 		(layer "F.Cu")
 		(uuid "96d2a8fc-d4aa-416f-bae8-42fccf03c6a7")
-		(at 159.5 117.475)
+		(at 159.5 117.5)
 		(tags "PA4342.472NLT ")
 		(property "Reference" "L2"
 			(at 0 0 180)
@@ -15992,7 +15992,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0963c365-3f72-4107-9dd6-604539c57407")
@@ -16016,7 +16016,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF1002T5E"
+		(property "Description" "0603WAF1202T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16029,7 +16029,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C25804"
+		(property "LCSC PN" "C22790"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18982,7 +18982,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1206W4F100JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18991,6 +18991,84 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0e8cbd8-3ebf-43e3-8d1e-59758f16642e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC PN" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "281d256e-942f-4549-9dc2-d12281ee0dc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fca0f86-0cd3-4e36-94a5-e5d0a10d2321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Type" "Basic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6a4a88d-9164-47e6-8999-828921f4d83d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power" "0.25W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22002353-c132-49a3-9dd0-e61273988cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d78eab-d783-49f4-ad43-5f0588e6eb83")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23849,20 +23927,12 @@
 		(uuid "f25fd332-24a8-4dea-acfd-407beda12bce")
 	)
 	(segment
-		(start 149.725001 107.499999)
-		(end 150.026 107.199)
+		(start 150.026 107.199)
+		(end 152.049 107.199)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "0e1acc1d-f515-44bf-aeec-2addb983ff47")
-	)
-	(segment
-		(start 152.049 107.199)
-		(end 152.825 107.975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "2618540d-9212-4ef6-b185-b46b52de5db4")
+		(uuid "3172fa7d-5199-4da0-a456-da623a0653e7")
 	)
 	(segment
 		(start 149.150001 107.499999)
@@ -23870,7 +23940,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "2ed80abe-866f-4dfe-8e77-d7c7db3dd5fa")
+		(uuid "3486ce92-0c92-45dd-82cf-f1ac70e47cd5")
+	)
+	(segment
+		(start 149.725001 107.499999)
+		(end 150.026 107.199)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "4b0715d4-0049-4baf-ba69-d1fb3edc65de")
+	)
+	(segment
+		(start 152.049 107.199)
+		(end 152.825 107.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "62980ae2-820f-4ad3-887c-378c6b30e789")
 	)
 	(segment
 		(start 153.925 107.725)
@@ -23887,14 +23973,6 @@
 		(layer "F.Cu")
 		(net 26)
 		(uuid "6aeaeca9-f29a-4981-a540-ecbc6411b510")
-	)
-	(segment
-		(start 150.026 107.199)
-		(end 152.049 107.199)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "f3baf19f-5831-4594-bca0-7af181699c2b")
 	)
 	(zone
 		(net 1)
