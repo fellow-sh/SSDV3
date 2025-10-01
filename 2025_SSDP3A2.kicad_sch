@@ -4674,7 +4674,7 @@
 		)
 		(uuid "952d4837-15c9-4988-ba60-c728145722ef")
 	)
-	(text "f_{SW} = 370kHz"
+	(text "f_{SW} = 420kHz"
 		(exclude_from_sim no)
 		(at 69.85 135.636 0)
 		(effects
@@ -17708,7 +17708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "24k"
 			(at 72.39 175.26 0)
 			(effects
 				(font
@@ -17735,7 +17735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF2702T5E"
+		(property "Description" "0603WAF2402T5E"
 			(at 69.85 173.99 0)
 			(effects
 				(font
@@ -17744,7 +17744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C22967"
+		(property "LCSC PN" "C23352"
 			(at 69.85 173.99 0)
 			(effects
 				(font
