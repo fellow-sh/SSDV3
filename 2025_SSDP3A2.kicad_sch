@@ -7,7 +7,7 @@
 	(title_block
 		(title "Super Step Down P3A2")
 		(date "2025-09-30")
-		(rev "A")
+		(rev "B")
 		(company "UBCO Aerospace Club")
 		(comment 1 "By Julian Joaquin")
 		(comment 2 "An independent prototype design for the Super Step Down V3")
@@ -20,25 +20,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q2"
+				(at -1.016 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Value" "BSC098N10NS5"
-				(at 5.08 0 0)
+			(property "Value" "BSZ096N10LS5"
+				(at -1.016 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(property "Footprint" "TSDSON-8:PG-TSDSON-8-26"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC098N10NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae95ab4221bfd"
+			(property "Datasheet" "https://www.infineon.com/part/BSZ096N10LS5"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -59,7 +59,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "60A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 9.8mOhm Ron, Qg (typ) 22.0nC, PG-TDSON-8"
+			(property "Description" "BSZ096N10LS5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "-90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C534695"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Extended"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "9.6mΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "100V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Infineon Technologies"
 				(at 0 0 0)
 				(effects
 					(font
@@ -291,6 +345,63 @@
 					)
 				)
 				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -356,8 +467,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 6.35 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -365,8 +476,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CSD19534Q5A"
-				(at 5.08 0 0)
+			(property "Value" "IAUZ30N10S5L240"
+				(at 6.35 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -374,7 +485,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(property "Footprint" "TSDSON-8:PG-TSDSON-8-26_TV"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -385,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/csd19534q5a"
+			(property "Datasheet" "https://www.infineon.com/part/IAUZ30N10S5L240"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -395,7 +506,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 15.1mOhm Ron, 17nC Qg(typ), SON8 5x6mm"
+			(property "Description" "IAUZ30N10S5L240"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "-90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C535732"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Extended"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "26.0mΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "100V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Infineon Technologies"
 				(at 0 0 0)
 				(effects
 					(font
@@ -619,6 +784,63 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1231,6 +1453,305 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_AAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D2"
+				(at -1.27 3.556 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STPS8170DEE"
+				(at 1.27 3.556 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TSDSON-8:PG-TSDSON-8-26"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "STPS8170DEE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "0"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C2960999"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "STMicroelectronics"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "170V"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky SCHDPAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_AAK_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_AAK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4047,6 +4568,18 @@
 		)
 		(uuid 4ce5814a-8067-4d33-b935-bd8bc4a869b0)
 	)
+	(rectangle
+		(start 208.28 129.54)
+		(end 227.33 162.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba0f01a6-ed2e-45f0-8790-85432c8de1da)
+	)
 	(text "PFM"
 		(exclude_from_sim no)
 		(at 86.614 180.848 90)
@@ -4083,7 +4616,7 @@
 		)
 		(uuid "3be8787e-a122-4a92-a115-9f04688de623")
 	)
-	(text "I_{LIM} = 10.6A @ 5V\nI_{LIM} = 11.9A @ 12V"
+	(text "I_{LIM} =  8.8A @ 5V\nI_{LIM} = 10.0A @ 12V"
 		(exclude_from_sim no)
 		(at 184.912 135.382 0)
 		(effects
@@ -4096,7 +4629,7 @@
 	)
 	(text "Inductor Ripple\nΔI_{L} = 34% @ 5V\nΔI_{L} = 67% @ 12V"
 		(exclude_from_sim no)
-		(at 252.984 125.222 0)
+		(at 258.064 125.222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4172,6 +4705,16 @@
 			(justify right)
 		)
 		(uuid "b08edb97-198b-4e50-be0e-3877cd69763a")
+	)
+	(text "Exclude from board\nwhen Q_{rr} < 40nC"
+		(exclude_from_sim no)
+		(at 217.932 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caf57f65-d685-4e8a-959f-df33e593565e")
 	)
 	(text "Q2 Alternatives:\n1.  BSZ096N10LS5     100V, Q_{g}=22nC, R_{DS(on)}=9.6mΩ,  $1.3702 USD, SON-8FL 3x3mm, 11.0A\n2.  TPN1200APL       100V, Q_{g}=24nC, R_{DS(on)}=11.5mΩ, $0.8041 USD, SON-8   3x3mm, 11.0A low\n3.  BSZ110N08NS5     80V,  Q_{g}=15nC, R_{DS(on)}=13.4mΩ, $0.8984 USD, SON-8FL 3x3mm, 11.0A low-ish\n4.  BSZ097N10NS5     100V, Q_{g}=22nC, R_{DS(on)}=9.7mΩ,  $1.2293 USD, SON-8FL 3x3mm, 11.0A\n5.  BSC117N08NS5     80V,  Q_{g}=12nC, R_{DS(on)}=13.7mΩ, $0.9156 USD, SON-8   5x6mm, 19.0A\n6.  ISC0805NLS       100V, Q_{g}=20nC, R_{DS(on)}=7.8mΩ,  $1.0070 USD, SON-8   5x6mm, 13.0A no stock, EOL\n7.  BSC0805LS        100V, Q_{g}=20nC, R_{DS(on)}=7.0mΩ,  $0.4368 USD, SON-8   5x6mm, 14.0A EOL\n8.  BSC098N10NS5     100V, Q_{g}=17nC, R_{DS(on)}=10.2mΩ, $0.7441 USD, SON-8   5x6mm, 11.0A\n9.  SiR882ADP        100V, Q_{g}=30nC, R_{DS(on)}=7.7mΩ,  $1.4015 USD, SON-8   5x6mm, 17.6A\n10. SiR876ADP        100V, Q_{g}=26nC, R_{DS(on)}=9.5mΩ,  $1.0008 USD, SON-8   5x6mm, 15.2A\nNVMFS015N10MCL, NVMFS021N10MCL, TPH1400ANH, BSZ084N08NS5, BSC072N08NS5, FDMS86101 (???)"
 		(exclude_from_sim no)
@@ -4481,6 +5024,12 @@
 		(uuid "8e7ca451-8355-4310-9eea-2f379db853ec")
 	)
 	(junction
+		(at 223.52 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bd579d-0ab7-4191-9c44-250b0c7430db")
+	)
+	(junction
 		(at 205.74 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4553,6 +5102,12 @@
 		(uuid "bc4ec154-e36e-4153-b777-01e91b26b4fa")
 	)
 	(junction
+		(at 232.41 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54a6106-aecd-41d0-8850-6ed8ed087be1")
+	)
+	(junction
 		(at 109.22 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4563,12 +5118,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce308b87-0632-4b14-b512-1a1898395cf6")
-	)
-	(junction
-		(at 220.98 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf90d2eb-e877-409f-8cc5-79b9c9754928")
 	)
 	(junction
 		(at 184.15 129.54)
@@ -4768,23 +5317,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 238.76 132.08)
+			(xy 205.74 132.08) (xy 223.52 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13e4200b-81d1-4e94-a6fb-ee71eb212398")
-	)
-	(wire
-		(pts
-			(xy 220.98 143.51) (xy 220.98 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14649bb8-67bd-481f-bce9-d1ce3cbf74f2")
 	)
 	(wire
 		(pts
@@ -4938,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 132.08) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf6504-38a6-480f-a0f0-d5dbb1f35dea")
+	)
+	(wire
+		(pts
 			(xy 238.76 109.22) (xy 227.33 109.22)
 		)
 		(stroke
@@ -5088,6 +5637,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 153.67) (xy 232.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7d2e24-d432-409a-a06f-c0289b0d3bb8")
+	)
+	(wire
+		(pts
 			(xy 168.91 180.34) (xy 168.91 189.23)
 		)
 		(stroke
@@ -5105,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "4ebfaf11-82b1-4161-8184-fe71604ac407")
+	)
+	(wire
+		(pts
+			(xy 223.52 148.59) (xy 223.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506d1687-5ee1-4f2b-8a6b-f9fbc20f8239")
 	)
 	(wire
 		(pts
@@ -5558,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 143.51) (xy 232.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c98262e-7a6e-4c47-aaa1-7b1da8c487c6")
+	)
+	(wire
+		(pts
 			(xy 171.45 143.51) (xy 171.45 144.78)
 		)
 		(stroke
@@ -5635,6 +6214,16 @@
 			(type default)
 		)
 		(uuid "92845c15-52e9-4856-bb36-a598adbafd7f")
+	)
+	(wire
+		(pts
+			(xy 232.41 132.08) (xy 242.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9475aea5-8418-4903-adf2-68b368207c7f")
 	)
 	(wire
 		(pts
@@ -5818,16 +6407,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80e328c-983c-4311-8d63-a32e85bf0a60")
-	)
-	(wire
-		(pts
 			(xy 323.85 109.22) (xy 326.39 109.22)
 		)
 		(stroke
@@ -5915,16 +6494,6 @@
 			(type default)
 		)
 		(uuid "b4f8d579-623d-452a-9bc4-77ca7bc06362")
-	)
-	(wire
-		(pts
-			(xy 205.74 132.08) (xy 220.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b4dc45-4a5c-481b-8ab0-01578888364c")
 	)
 	(wire
 		(pts
@@ -6135,16 +6704,6 @@
 			(type default)
 		)
 		(uuid "d701791a-6825-4d2a-bf82-24269fce5a8e")
-	)
-	(wire
-		(pts
-			(xy 220.98 153.67) (xy 220.98 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83071fc-1bd6-416d-84f4-deffbf155e8d")
 	)
 	(wire
 		(pts
@@ -6368,6 +6927,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 132.08) (xy 223.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed11194-8616-4dfa-b810-1644cf44ff75")
+	)
+	(wire
+		(pts
 			(xy 292.1 86.36) (xy 297.18 86.36)
 		)
 		(stroke
@@ -6388,7 +6957,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 132.08) (xy 265.43 132.08)
+			(xy 250.19 132.08) (xy 265.43 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6425,6 +6994,16 @@
 			(type default)
 		)
 		(uuid "f179072b-141a-45e8-87a1-f84775270a20")
+	)
+	(wire
+		(pts
+			(xy 232.41 132.08) (xy 232.41 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b8f126-ad6f-4040-804f-70c686d60ad0")
 	)
 	(wire
 		(pts
@@ -7469,16 +8048,6 @@
 			"TkSuQmCC"
 		)
 	)
-	(label "SNUB_RC"
-		(at 220.98 146.05 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "08c47a37-357f-4ede-92d1-cc70749e55c5")
-	)
 	(label "SYNCIN"
 		(at 113.03 152.4 180)
 		(effects
@@ -7488,6 +8057,16 @@
 			(justify right bottom)
 		)
 		(uuid "0b14210e-3ed9-45d5-b097-0c92c8d2733d")
+	)
+	(label "SNUB_RC"
+		(at 232.41 146.05 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bdfdf87-d6cd-45ce-8c75-2588d6769b07")
 	)
 	(label "RBST"
 		(at 173.99 121.92 0)
@@ -8764,6 +9343,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 232.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "17f53d4c-aec0-44b4-a495-e8b9be3bcbee")
+		(property "Reference" "C14"
+			(at 236.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 233.3752 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09250812-8ed3-4e95-a990-83a9ac634856")
+		)
+		(pin "1"
+			(uuid "225fa7dc-5f97-48a4-8a3c-cf6a8d76dfe9")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 288.29 74.93 90)
 		(unit 1)
@@ -9024,76 +9673,6 @@
 			(project "2025_SSDP3A1"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 220.98 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "214cb28e-f559-4efc-9cea-987902c59855")
-		(property "Reference" "C14"
-			(at 224.79 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 224.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 221.9452 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3346d82f-333c-4a80-9bce-39ab5e1d6ed8")
-		)
-		(pin "1"
-			(uuid "0a3609c3-0031-470c-987b-02c64d3fcbe5")
-		)
-		(instances
-			(project ""
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10412,6 +10991,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 232.41 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a230f14-9ddc-4155-bd2a-4279b5c44bf7")
+		(property "Reference" "#PWR05"
+			(at 232.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 232.41 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 232.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e70efb-0526-40d3-9190-aac51244f891")
+		)
+		(instances
+			(project "2025_SSDP3A2"
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 284.48 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11085,7 +11730,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "360"
 			(at 177.8 134.62 90)
 			(effects
 				(font
@@ -11111,7 +11756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF3300T5E"
+		(property "Description" "0603WAF3600T5E"
 			(at 177.8 137.16 0)
 			(effects
 				(font
@@ -11120,7 +11765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C23138"
+		(property "LCSC PN" "C25194"
 			(at 177.8 137.16 90)
 			(effects
 				(font
@@ -11129,7 +11774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Type" "Basic"
+		(property "Part Type" "Preferred Extended"
 			(at 177.8 137.16 90)
 			(effects
 				(font
@@ -12314,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 173.99 142.2463 0)
 			(effects
 				(font
@@ -12341,7 +12986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCM1885C2A180JA16D"
+		(property "Description" "CC0603JRNPO0BN120"
 			(at 171.45 140.97 0)
 			(effects
 				(font
@@ -12350,7 +12995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C913624"
+		(property "LCSC PN" "C576801"
 			(at 171.45 140.97 0)
 			(effects
 				(font
@@ -12404,7 +13049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
 			(at 171.45 140.97 0)
 			(effects
 				(font
@@ -12735,7 +13380,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 242.57 132.08 90)
+		(at 246.38 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12743,7 +13388,7 @@
 		(dnp no)
 		(uuid "6ac81476-3d5b-4170-9847-a51f09665deb")
 		(property "Reference" "L2"
-			(at 242.57 127 90)
+			(at 246.38 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +13396,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 242.57 129.54 90)
+			(at 246.38 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +13404,7 @@
 			)
 		)
 		(property "Footprint" "PA4342-472NLT:IND_PA4342_PUL-M"
-			(at 242.57 132.08 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +13413,7 @@
 			)
 		)
 		(property "Datasheet" "https://productfinder2.pulseelectronics.com/part/pa4342.472nlt"
-			(at 242.57 132.08 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +13422,7 @@
 			)
 		)
 		(property "Description" "PA4342.472NLT"
-			(at 242.57 136.398 90)
+			(at 246.38 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13430,7 @@
 			)
 		)
 		(property "LCSC PN" "C6949325"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +13439,7 @@
 			)
 		)
 		(property "Part Type" "Extended"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +13448,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "0"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +13457,7 @@
 			)
 		)
 		(property "LCSC ALT1" "C2041319"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,7 +13466,7 @@
 			)
 		)
 		(property "PART ALT1" "SRP1038A-4R7M"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +13475,7 @@
 			)
 		)
 		(property "ESR" "15.5mΩ"
-			(at 242.57 133.858 90)
+			(at 246.38 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +13483,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Pulse Electronics"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +13492,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +13501,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,7 +13510,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +13519,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +13528,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,7 +13537,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 242.57 132.08 90)
+			(at 246.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12910,6 +13555,76 @@
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 232.41 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "733ec0d0-5a06-4327-8fe1-e8cd3e432b56")
+		(property "Reference" "R16"
+			(at 234.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 233.426 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa132656-b2c3-4c6a-b082-9f2be1b072db")
+		)
+		(pin "2"
+			(uuid "7e1b622c-b9bf-4cbc-8a68-8fd875bc2576")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13955,7 +14670,8 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 220.98 156.21 0)
+		(at 223.52 156.21 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13963,7 +14679,7 @@
 		(dnp no)
 		(uuid "89d4f4f9-df28-4802-b362-dca47a1a035c")
 		(property "Reference" "#PWR013"
-			(at 220.98 162.56 0)
+			(at 223.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13972,7 +14688,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 220.98 160.782 0)
+			(at 223.52 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +14696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 156.21 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13989,7 +14705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 156.21 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13998,7 +14714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 220.98 156.21 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +15655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab401fd7-be96-4f4f-92eb-8a85931d44c5")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 339.09 148.9075 90)
 			(effects
 				(font
@@ -15122,7 +15838,7 @@
 		(instances
 			(project "2025_SSDP3A1"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15715,7 +16431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD19534Q5A"
+		(property "Value" "IAUZ30N10S5L240"
 			(at 209.55 118.11 0)
 			(effects
 				(font
@@ -15724,7 +16440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "TSDSON-8:PG-TSDSON-8-26_TV"
 			(at 208.28 118.745 0)
 			(effects
 				(font
@@ -15735,7 +16451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd19534q5a"
+		(property "Datasheet" "https://www.infineon.com/part/IAUZ30N10S5L240"
 			(at 208.28 120.65 0)
 			(effects
 				(font
@@ -15745,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CSD19534Q5A"
+		(property "Description" "IAUZ30N10S5L240"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -15763,7 +16479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C114200"
+		(property "LCSC PN" "C535732"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -15781,7 +16497,7 @@
 				(hide yes)
 			)
 		)
-		(property "ESR" "13.8mΩ"
+		(property "ESR" "26.0mΩ"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -15799,7 +16515,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "MANUFACTURER" "Infineon Technologies"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -15822,6 +16538,15 @@
 		)
 		(pin "3"
 			(uuid "f2396103-e6aa-48a8-8047-39f2168b27e6")
+		)
+		(pin "8"
+			(uuid "e44436cd-4c5a-405b-831a-830063c23b0c")
+		)
+		(pin "6"
+			(uuid "32125806-b93b-468b-a56e-e525e22a0588")
+		)
+		(pin "7"
+			(uuid "4a330241-6113-4222-94da-3fc8eedffa77")
 		)
 		(instances
 			(project ""
@@ -16080,76 +16805,6 @@
 			(project "2025_SSDP3A2"
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 220.98 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c0246062-f268-4ea3-b0c2-800028aed570")
-		(property "Reference" "R16"
-			(at 223.52 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1"
-			(at 223.52 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 221.996 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 220.98 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88267a31-fcb2-4b17-b085-d31e5b93811a")
-		)
-		(pin "2"
-			(uuid "7a79b312-0c46-4e09-8975-e4031bd7ab86")
-		)
-		(instances
-			(project ""
-				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17468,6 +18123,130 @@
 			(project ""
 				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AAK")
+		(at 223.52 144.78 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "d82ad785-034f-491d-a987-9f0c2724c11b")
+		(property "Reference" "D2"
+			(at 219.964 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STPS8170DEE"
+			(at 219.964 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TSDSON-8:PG-TSDSON-8-26"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STPS8170DEE"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
+			(at 223.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2960999"
+			(at 223.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 223.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "170V"
+			(at 223.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "83be3cba-9908-4538-a84e-7b0006d0eb57")
+		)
+		(pin "2"
+			(uuid "d5d2f733-84ac-4172-a07d-30936a87cae3")
+		)
+		(pin "1"
+			(uuid "398a451d-eb46-40d7-a376-038a9bce9b56")
+		)
+		(pin "5"
+			(uuid "a1ffa611-6aa7-490c-8b77-f7af01694ec4")
+		)
+		(pin "4"
+			(uuid "81fc654b-96ad-4f8d-9760-75644b4b70f1")
+		)
+		(pin "7"
+			(uuid "fc6dfc4c-97b5-4e1e-a7a6-01dacc50d489")
+		)
+		(pin "8"
+			(uuid "19e7194b-ff56-4a01-ab8e-d590613c857c")
+		)
+		(pin "6"
+			(uuid "209dca52-9dd8-446f-a01d-1b355a2ac64a")
+		)
+		(instances
+			(project ""
+				(path "/ea689c3b-fea3-4fc0-9d65-1fb672b240d8"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18884,7 +19663,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSC0805LS"
+		(property "Value" "BSZ096N10LS5"
 			(at 202.184 146.05 0)
 			(effects
 				(font
@@ -18893,7 +19672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "TSDSON-8:PG-TSDSON-8-26"
 			(at 208.28 151.765 0)
 			(effects
 				(font
@@ -18904,7 +19683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc0805ls-datasheet-en.pdf"
+		(property "Datasheet" "https://www.infineon.com/part/BSZ096N10LS5"
 			(at 208.28 153.67 0)
 			(effects
 				(font
@@ -18914,7 +19693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BSC0805LS"
+		(property "Description" "BSZ096N10LS5"
 			(at 203.2 149.86 0)
 			(effects
 				(font
@@ -18932,7 +19711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C534374"
+		(property "LCSC PN" "C534695"
 			(at 203.2 149.86 0)
 			(effects
 				(font
@@ -18950,7 +19729,7 @@
 				(hide yes)
 			)
 		)
-		(property "ESR" "7.1mΩ"
+		(property "ESR" "9.6mΩ"
 			(at 203.2 149.86 0)
 			(effects
 				(font
@@ -18991,6 +19770,15 @@
 		)
 		(pin "3"
 			(uuid "746f85e2-b254-4192-8dc7-a2f84e5fe281")
+		)
+		(pin "8"
+			(uuid "3ac82f64-88ee-4391-a467-6dc6a383dff3")
+		)
+		(pin "7"
+			(uuid "67658979-5aea-4c7b-ab46-e806f714ee64")
+		)
+		(pin "6"
+			(uuid "8937521d-9862-4eaa-ac5b-702459f3b926")
 		)
 		(instances
 			(project ""
