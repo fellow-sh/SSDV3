@@ -1346,7 +1346,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2206,7 +2206,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17469,7 +17469,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22275,14 +22275,6 @@
 		(uuid "6f542e49-ce4a-473c-8775-b9e0ed3fe91b")
 	)
 	(segment
-		(start 148.5 114.25)
-		(end 148.5 113.25)
-		(width 0.4)
-		(layer "In2.Cu")
-		(net 14)
-		(uuid "5f42b3fc-2da2-448e-b727-c00e9ad7e24b")
-	)
-	(segment
 		(start 148.5 110.75)
 		(end 148.5 114.25)
 		(width 0.5)
@@ -22333,7 +22325,7 @@
 	(segment
 		(start 149.5 114.25)
 		(end 149.5 115.975)
-		(width 0.5)
+		(width 0.4)
 		(layer "F.Cu")
 		(net 15)
 		(uuid "b1eb6875-de66-4cc7-b710-997a9ed066d5")
