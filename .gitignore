@@ -7,3 +7,6 @@ production/
 *.log
 *.raw
 *.net
+
+# cache files
+fp-info-cache
