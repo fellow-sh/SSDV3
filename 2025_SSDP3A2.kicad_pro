@@ -683,6 +683,18 @@
         },
         {
           "group_by": false,
+          "label": "LCSC ALT1",
+          "name": "LCSC ALT1",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PART ALT1",
+          "name": "PART ALT1",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Power",
           "name": "Power",
           "show": true
@@ -728,18 +740,6 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "PART ALT1",
-          "name": "PART ALT1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC ALT1",
-          "name": "LCSC ALT1",
-          "show": false
         },
         {
           "group_by": false,
