@@ -12695,7 +12695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink"
+		(property "Value" "567-45AB"
 			(at 77.47 260.985 0)
 			(effects
 				(font
