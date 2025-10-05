@@ -5,4 +5,5 @@
   (lib (name "TSDSON-8")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_BSZ097N10NS5ATMA1/TSDSON-8.pretty")(options "")(descr ""))
   (lib (name "PA4342-472NLT")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PA4342-472NLT/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "20TQC100MYF")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_20TQC100MYF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Connector_Custom")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector_Custom.pretty")(options "")(descr ""))
 )

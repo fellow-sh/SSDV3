@@ -1,6 +1,8 @@
 2025_SSDP3A2-backups/
 production/
 
+fp-info-cache
+
 *.zip
 
 # ltspice output files
