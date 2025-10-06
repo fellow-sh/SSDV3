@@ -1,4 +1,4 @@
-(footprint "SolderWirePad_1x05_SMD_1.5x2mm"
+(footprint "SolderWirePad_1x06_SMD_1.5x2mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SolderWirePad_1x05_SMD_1.5x2mm"
+	(property "Value" "SolderWirePad_1x06_SMD_1.5x2mm"
 		(at 0 2.54 0)
 		(layer "F.Fab")
 		(uuid "d5554df8-8ad7-42a8-b421-37915f92965e")
@@ -66,7 +66,7 @@
 	)
 	(fp_line
 		(start -0.63 1.27)
-		(end 8.125 1.27)
+		(end 9.75 1.27)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -75,7 +75,7 @@
 		(uuid "41dee653-4456-41f6-9b74-34afed28fe62")
 	)
 	(fp_line
-		(start 8.125 -1.27)
+		(start 9.75 -1.27)
 		(end -0.63 -1.27)
 		(stroke
 			(width 0.05)
@@ -85,8 +85,8 @@
 		(uuid "5d857655-5d77-4195-a830-c7d6422d2cfb")
 	)
 	(fp_line
-		(start 8.125 1.27)
-		(end 8.125 -1.27)
+		(start 9.75 1.27)
+		(end 9.75 -1.27)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -96,7 +96,7 @@
 	)
 	(fp_line
 		(start -0.63 -1.27)
-		(end 8.125 -1.27)
+		(end 9.75 -1.27)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "c3303755-6b86-4034-9918-6a6f09872260")
 	)
 	(fp_line
-		(start 8.125 -1.27)
-		(end 8.125 1.27)
+		(start 9.75 -1.27)
+		(end 9.75 1.27)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -125,7 +125,7 @@
 		(uuid "01ff3dae-6121-4719-a263-2fe2b66c0a7c")
 	)
 	(fp_line
-		(start 8.125 1.27)
+		(start 9.75 1.27)
 		(end -0.63 1.27)
 		(stroke
 			(width 0.1)
@@ -179,6 +179,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9b44bb49-fcdb-41fa-b6ca-8b40868a4109")
+	)
+	(pad "6" smd roundrect
+		(at 9 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "24eb1c03-da52-4f72-8c06-17f8c80c6201")
 	)
 	(embedded_fonts no)
 )
