@@ -4662,7 +4662,7 @@
 		)
 		(uuid "0c586ed7-7da1-41da-8cad-db32af5bbeed")
 	)
-	(text "V_{IN} = 20~60V (70V transient)\ntyp. 6~12S Li-Ion/LiPo Battery"
+	(text "V_{IN} = 20~60V (70V slow transient)\ntyp. 6~12S Li-Ion/LiPo Battery"
 		(exclude_from_sim no)
 		(at 315.976 98.044 0)
 		(effects
@@ -20652,7 +20652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441788598415360"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8564879186138451968"
 			(at 295.91 97.79 0)
 			(effects
 				(font
@@ -20661,7 +20661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMCJ70CA"
+		(property "Description" "SMDJ64CA"
 			(at 298.45 100.076 90)
 			(effects
 				(font
@@ -20679,7 +20679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C41411746"
+		(property "LCSC PN" "C42371551"
 			(at 295.91 97.79 90)
 			(effects
 				(font
@@ -20697,7 +20697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "113V"
+		(property "Voltage" "103V"
 			(at 295.91 97.79 90)
 			(effects
 				(font
@@ -20707,6 +20707,15 @@
 			)
 		)
 		(property "MANUFACTURER" "Zhuhai Hongjiacheng"
+			(at 295.91 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "3000W"
 			(at 295.91 97.79 90)
 			(effects
 				(font
