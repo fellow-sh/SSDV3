@@ -11,18 +11,22 @@ The SSDP3A2 is an independently-made, non-isolated step-down module designed for
 <table><tbody>
   <tr>
     <td>Input Voltage</td>
-    <td>20-70V</td>
+    <td>20-60V</td>
   </tr>
   <tr>
-    <td>Output Voltage</td>
-    <td>5V, 12V</td>
+    <td>Max Transient Voltage</td>
+    <td>100V (clamping starts at 70V)</td>
   </tr>
   <tr>
-    <td>Output Current</td>
+    <td>Output Voltage(s)</td>
+    <td>5V, 7.4V, 9.6V, 12V</td>
+  </tr>
+  <tr>
+    <td>Max Output Current</td>
     <td>8A</td>
   </tr>
   <tr>
-    <td>Efficiency</td>
+    <td>Lowest Typical Efficiency</td>
     <td>89%</td>
   </tr>
   <tr>

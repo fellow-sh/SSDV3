@@ -4662,7 +4662,7 @@
 		)
 		(uuid "0c586ed7-7da1-41da-8cad-db32af5bbeed")
 	)
-	(text "V_{IN} = 20~70V (50V Nom)\ntyp. 6~12S Li-Ion/LiPo Battery"
+	(text "V_{IN} = 20~60V (70V transient)\ntyp. 6~12S Li-Ion/LiPo Battery"
 		(exclude_from_sim no)
 		(at 315.976 98.044 0)
 		(effects

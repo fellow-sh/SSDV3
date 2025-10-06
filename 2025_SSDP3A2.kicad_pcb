@@ -6469,14 +6469,14 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-20_Kemet-V_HandSolder"
 		(layer "F.Cu")
 		(uuid "5d1baa4b-3bcf-4176-b596-c75532a028b4")
-		(at 167.5 114.5 -90)
+		(at 167.75 114.5 -90)
 		(descr "Tantalum Capacitor SMD Kemet-V (7343-20 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C22"
 			(at 0 -3.1 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "75f91a30-f168-48f1-8ff4-cb64438897bc")
+			(uuid "38b7bb43-a552-4b54-859f-c5580de733a1")
 			(effects
 				(font
 					(size 1 1)
@@ -6487,7 +6487,7 @@
 		(property "Value" "100uF"
 			(at 0 3.1 270)
 			(layer "F.Fab")
-			(uuid "e7be5595-f510-430a-9ba0-2b75b3f8e828")
+			(uuid "8914e724-3ca1-4846-8220-a6ab64052290")
 			(effects
 				(font
 					(size 1 1)
@@ -6499,7 +6499,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2deb1b3b-a749-4ea1-bdc2-13583666d972")
+			(uuid "a4e1ece5-5159-495f-8d6b-4c269dbf6fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6511,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9eae637-6a26-4ee2-bd25-7b667a5c9fe2")
+			(uuid "8498c0dc-4377-4ccd-be5a-a5028dd710b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,14 +10173,14 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "7b24d34c-0b56-4f32-b3f0-9ae49cc5702f")
-		(at 163.25 116.75 -90)
+		(at 163.5 116.75 -90)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C20"
 			(at 0 -2.3 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0a38705f-f12f-45eb-a901-69e729122faf")
+			(uuid "f8584fbc-6688-4a09-bd9d-100e8f885631")
 			(effects
 				(font
 					(size 1 1)
@@ -10191,7 +10191,7 @@
 		(property "Value" "22uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
-			(uuid "29dc7d42-5600-4ac4-af4a-63853cae7026")
+			(uuid "b69bfc4f-bea1-4e55-8aea-52949eb0f653")
 			(effects
 				(font
 					(size 1 1)
@@ -10204,7 +10204,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa1fa592-99eb-4dda-a880-82a1c88ff4d6")
+			(uuid "59db0902-ac8c-4339-a61a-7784b728755e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10217,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8119917f-2d7b-4446-9669-c48b458e97cd")
+			(uuid "fe9eae15-abe7-4661-8805-c7724113bc5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21604,6 +21604,17 @@
 		(uuid "65f98131-1de9-4c1d-b87d-6349c5d99f1b")
 	)
 	(gr_rect
+		(start 120 100)
+		(end 178.4 128.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "9042eadd-a69f-412e-b980-795fc77e73e5")
+	)
+	(gr_rect
 		(start 120.45 103)
 		(end 177.85 125.8)
 		(stroke
@@ -21615,7 +21626,7 @@
 		(uuid "307ba55a-36f4-4bc4-afce-7b28a58f978c")
 	)
 	(gr_text "OUT+"
-		(at 170.75 114.25 90)
+		(at 171 114.25 90)
 		(layer "F.SilkS")
 		(uuid "2d13a9be-7eda-46bc-9a3b-75ba0c1ba57a")
 		(effects
@@ -21692,7 +21703,7 @@
 		)
 	)
 	(gr_text "OUT-"
-		(at 170.75 126.25 90)
+		(at 171 126.25 90)
 		(layer "F.SilkS")
 		(uuid "9da95d88-2128-43f9-b847-2e5ec780fdc1")
 		(effects
