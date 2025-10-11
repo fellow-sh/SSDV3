@@ -5358,7 +5358,7 @@
 			(xy 317.5 76.2) (xy 317.5 118.11)
 		)
 		(stroke
-			(width 0.1778)
+			(width 0)
 			(type dash)
 		)
 		(uuid "06a19339-fd16-40dc-a7f6-293eb6a43249")
