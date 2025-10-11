@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|148850002|109600000|9fd73348-0492-4717-a7c0-026710990b0f|b2e55272-1347-4f12-b921-9af25ba6a8b6",
+          "clearance|145850002|109600000|9fd73348-0492-4717-a7c0-026710990b0f|b2e55272-1347-4f12-b921-9af25ba6a8b6",
           ""
         ],
         [
-          "solder_mask_bridge|146625001|106725000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
+          "solder_mask_bridge|143625001|106725000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
           ""
         ],
         [
-          "solder_mask_bridge|146875000|107700000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9aeff74f-6c20-4403-9cfe-c46bbdfb558e",
+          "solder_mask_bridge|143875000|107700000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9aeff74f-6c20-4403-9cfe-c46bbdfb558e",
           ""
         ],
         [
-          "solder_mask_bridge|146875000|107725000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9e81d5a5-e31b-4e70-b126-0bee7b7ef1a6",
+          "solder_mask_bridge|143875000|107725000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9e81d5a5-e31b-4e70-b126-0bee7b7ef1a6",
           ""
         ]
       ],
@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.16,
         "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
