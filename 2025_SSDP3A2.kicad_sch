@@ -10700,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "-90"
 			(at 97.79 116.84 0)
 			(effects
 				(font
@@ -17685,7 +17685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD19537Q3"
+		(property "Value" "CSD19537Q3T"
 			(at 193.04 118.11 0)
 			(effects
 				(font
@@ -17715,7 +17715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CSD19537Q3"
+		(property "Description" "CSD19537Q3T"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -17733,7 +17733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C478469"
+		(property "LCSC PN" "C134143"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -21289,7 +21289,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "-90"
 			(at 186.69 149.86 0)
 			(effects
 				(font

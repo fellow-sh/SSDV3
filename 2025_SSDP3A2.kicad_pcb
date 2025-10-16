@@ -2002,7 +2002,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "-90"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2851,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Value" "CSD19537Q3"
+		(property "Value" "CSD19537Q3T"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "cc188229-f79d-4a3c-ab92-cdcdd00cbbc4")
@@ -2875,7 +2875,7 @@
 				)
 			)
 		)
-		(property "Description" "CSD19537Q3"
+		(property "Description" "CSD19537Q3T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2901,7 +2901,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C478469"
+		(property "LCSC PN" "C134143"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19450,7 +19450,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "-90"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
