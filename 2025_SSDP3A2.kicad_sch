@@ -22651,7 +22651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE TVS 64V 600W BI SMC"
+		(property "Description" "DIODE TVS 64V 600W BI SMB"
 			(at 119.38 56.896 90)
 			(effects
 				(font

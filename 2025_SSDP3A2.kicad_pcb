@@ -13242,7 +13242,7 @@
 				)
 			)
 		)
-		(property "Description" "DIODE TVS 64V 600W BI SMC"
+		(property "Description" "DIODE TVS 64V 600W BI SMB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
