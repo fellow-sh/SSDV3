@@ -196,7 +196,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at 3.65 0 90)
 			(layer "F.Fab")
 			(uuid "04c7b096-c52b-47a1-9f3e-fed6eaab32fc")
 			(effects
@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -401,6 +401,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bce09b4f-6a7d-4461-a6af-fcd9ad91838e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aebc1c9e-008c-44bd-b86f-81e9577ffa55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cc40ed17-f9d8-4e49-9a63-b03dd19c3890")
 		(sheetname "/")
@@ -567,13 +593,14 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at -0.1 -0.85 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "991f128e-7df4-497a-8944-a92c1cb0f58d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -590,7 +617,7 @@
 				)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -772,6 +799,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7932ba32-6ef6-414d-b07a-8d460f914217")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d31ba097-0190-4b41-9112-fa78785af0b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b1c8a726-df2a-4149-ab0d-2d7bb116ca84")
 		(sheetname "/")
@@ -938,13 +991,14 @@
 			)
 		)
 		(property "Value" "2.2"
-			(at 0 1.43 90)
+			(at 0 0.9 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "68095815-f198-4cb9-bb31-ad25cd213517")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -961,7 +1015,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF220KT5E"
+		(property "Description" "RES 2.2Ω 1% 75V 100mW 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1143,6 +1197,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF220KT5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b32a23-9b4c-4354-b685-f72c60eac8e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0b4ccbb-e229-4137-a1e3-8a9dd4b7c3f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/53b88f67-b127-4985-875b-58e0ececdb59")
 		(sheetname "/")
@@ -1309,7 +1389,7 @@
 			)
 		)
 		(property "Value" "SolderPad_1x03"
-			(at 0 2.54 0)
+			(at 0 4.5 180)
 			(layer "F.Fab")
 			(uuid "87d67f48-4fb3-467a-acfa-0724ec7b1f42")
 			(effects
@@ -1341,6 +1421,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5774e549-aa71-42a6-8766-21f92910044d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1431,7 +1524,7 @@
 			(uuid "c91d3e47-22b5-405d-986f-b8a2b7bd2b7c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 2.06 0 0)
 			(layer "F.Fab")
 			(uuid "005302b8-59f7-40c9-9f45-39c3f84227a8")
 			(effects
@@ -1483,7 +1576,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cfa8df9b-f4f7-4813-a698-c834daa16403")
+			(uuid "e852a718-3291-4c01-ac60-903d0674e2a6")
 			(effects
 				(font
 					(size 1 1)
@@ -1492,13 +1585,14 @@
 			)
 		)
 		(property "Value" "68"
-			(at 0 1.43 0)
+			(at 0.1 -0.85 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "777a11c6-ee8f-4321-8865-1a0d3f106460")
+			(uuid "2430c1d4-9a44-484d-ac41-acf31fffc973")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -1507,7 +1601,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80c35cd0-5ad8-41f3-8e25-d8b5c15c868c")
+			(uuid "8b417120-6946-46ad-b7f4-59b07d62f609")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,12 +1609,12 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF680JT5E"
+		(property "Description" "RES 68Ω 1% 75V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2365bc9c-cf22-476f-8da9-e5d161c9fa05")
+			(uuid "f5637cbb-b31d-4b77-b0f6-3b76e1a5a5c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,6 +1791,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF680JT5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15b79434-29a5-4ada-b997-014af0d0227f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d750150e-4cc4-432e-92cb-ac6e5fb9aac4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f5054cbc-95c2-4494-acdd-e427904a6f64")
 		(sheetname "/")
@@ -1863,7 +1983,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at 0 -5.85 180)
 			(layer "F.Fab")
 			(uuid "7290b9bd-656b-4e4f-aeef-d8421a55fa9c")
 			(effects
@@ -1893,6 +2013,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be0df888-0cd8-4ee9-9a8e-3b1a542fefe4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1965,14 +2098,14 @@
 			)
 		)
 		(property "Value" "BSZ096N10LS5"
-			(at 0 0 270)
+			(at 2.15 0.15 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f3930fc0-91d1-4189-9baa-441ef56fffb0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -1989,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Description" "BSZ096N10LS5"
+		(property "Description" "MOSFET N-CH 100V 62A TSDSON-8FL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2099,6 +2232,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b0b03006-e832-4060-87f1-2c9ac6e00288")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "BSZ096N10LS5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b51ff1-8f04-4a78-84fe-993645ce1882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f646bd24-0efb-44fc-b4ec-42c2e91c0836")
 			(effects
 				(font
 					(size 1 1)
@@ -2330,7 +2489,7 @@
 			(uuid "7130533b-5627-49b0-a253-e56b7cb53102")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "9bedf10d-19c6-40df-82d8-1c950ccae648")
@@ -2481,13 +2640,14 @@
 			)
 		)
 		(property "Value" "1.5nF"
-			(at 0 1.43 90)
+			(at 1.9 -0.1 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8a33659c-1e4a-471e-8022-2a6c69f199d8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -2504,7 +2664,7 @@
 				)
 			)
 		)
-		(property "Description" "0603B152K500NT"
+		(property "Description" "CAP CER 1.5nF 50V X7R 10% 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2686,6 +2846,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603B152K500NT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28b612cf-2059-4e17-8c79-1604b03698b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc27ffa-c05c-45bb-9c32-fde954d11143")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d73bcfc4-d349-4153-bff9-dcd1ad4b0562")
 		(sheetname "/")
@@ -2852,13 +3038,13 @@
 			)
 		)
 		(property "Value" "CSD19537Q3T"
-			(at 0 2.8 0)
+			(at 1.05 2.15 180)
 			(layer "F.Fab")
 			(uuid "cc188229-f79d-4a3c-ab92-cdcdd00cbbc4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -2875,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Description" "CSD19537Q3T"
+		(property "Description" "MOSFET N-CH 100V 53A VSON-8(3.3x3.3)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2985,6 +3171,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c12ff30b-bf98-4ae3-89ae-b2dd2886514c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CSD19537Q3T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f17d0d5-611f-499d-9614-49e75c3dd6e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9321593c-5fb1-4f0b-8c2e-7fb85451fa79")
 			(effects
 				(font
 					(size 1 1)
@@ -3511,6 +3723,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59002dbb-619a-41ee-a66b-abfba0b61f80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/e4976fba-397b-4934-8dfa-5f38a7aa9ea5")
 		(sheetname "/")
@@ -3568,13 +3793,14 @@
 			)
 		)
 		(property "Value" "2.2"
-			(at 0 1.43 90)
+			(at -1.5 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2c955971-dee6-45df-a166-e4a0afaf9b32")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -3591,7 +3817,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF220KT5E"
+		(property "Description" "RES 2.2Ω 1% 75V 100mW 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3773,6 +3999,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF220KT5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0495b723-a440-4a3f-90ea-3577a7e1e01b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3565970b-806b-41a3-a2b0-9f4d846bca5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6727f88d-f4e4-4b92-b21e-70525e6b5cef")
 		(sheetname "/")
@@ -3939,13 +4191,14 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.68 0)
+			(at 0 -1.1 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0c1369d2-d097-43b5-ade0-d931769c992d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -3962,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Description" "CL21A225KBQNNNE"
+		(property "Description" "CAP CER 2.2uF 50V X5R 10% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4144,6 +4397,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL21A225KBQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8391db48-2183-43a7-a4a9-c8ad296030fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e96bf37-1b4f-4bdc-9d24-8759a6b7651d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d4a2b0b8-767d-44f7-b260-5fe1a45a1f74")
 		(sheetname "/")
@@ -4311,7 +4590,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.85 0)
+			(at -8.9 0.25 0)
 			(layer "F.Fab")
 			(uuid "15c79018-2db7-4565-b2d0-0f64a5df6bfc")
 			(effects
@@ -4438,6 +4717,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1edde4cd-423c-4beb-98e5-4f8bc0d5573c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/030c582a-af65-4832-af30-5ca0465eac33")
 		(sheetname "/")
@@ -4516,7 +4808,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at 0 -7.25 180)
 			(layer "F.Fab")
 			(uuid "bc9f025a-93c7-4b12-9d83-e89b651b732e")
 			(effects
@@ -4546,6 +4838,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfd0aab2-7c75-4d2a-b91b-06e575d3dd27")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4853,13 +5158,14 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 0 1.43 0)
+			(at -1.75 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c7d4925a-0163-4b47-9838-a5df2e548e21")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -4876,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5058,6 +5364,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba04243-c590-418b-9e0c-808d58df88c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a4e4a6-edaa-46ed-828c-08f8e0b47d6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f70b99dd-0423-40c2-b0b6-c7356fec2fcd")
 		(sheetname "/")
@@ -5224,13 +5556,14 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 0 1.43 0)
+			(at 0 -0.875 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "60122a86-5334-47d3-8c82-1647a9ddff50")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -5247,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Description" "0603B472K500NT"
+		(property "Description" "CAP CER 4.7nF 50V X7R 10% 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5429,6 +5762,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603B472K500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5a2367-72e3-496f-a30c-dc3b2e156a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3a4c8e3-7529-4e50-b611-b1c646efa195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/48c58b39-e851-49c8-9155-30d55a55edf9")
 		(sheetname "/")
@@ -5595,13 +5954,14 @@
 			)
 		)
 		(property "Value" "3.74k"
-			(at 0 1.43 0)
+			(at 0 -1.125 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a5220b69-e040-4f82-8ce7-4cdbe48b2ab6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -5618,7 +5978,7 @@
 				)
 			)
 		)
-		(property "Description" "RT0603BRE073K74L"
+		(property "Description" "RES 3.74kΩ 0.1% 75V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5800,6 +6160,32 @@
 				)
 			)
 		)
+		(property "Part Number" "RT0603BRE073K74L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb2458b8-ba3b-438e-a54c-fc7ecfdb17d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "013e6524-a4a0-46cc-ba21-5396b5aabb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/215bd0c7-6957-4778-a51e-a6c26b2f2ee0")
 		(sheetname "/")
@@ -5966,13 +6352,14 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at -0.1 -0.8 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d8bbdb1c-1168-4783-80d3-c396212f5e49")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -5989,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6171,6 +6558,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca2ada3-20e7-4926-85da-2121c86dfc99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c95fdfe-e114-4e34-afd2-9c9b843b7b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9acf74ef-5e2c-4690-9b86-ace1308b9426")
 		(sheetname "/")
@@ -6337,7 +6750,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 90)
+			(at 3.6 0.1 90)
 			(layer "F.Fab")
 			(uuid "63137bbe-0519-4095-8d9f-e311c2457202")
 			(effects
@@ -6360,7 +6773,7 @@
 				)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6542,6 +6955,32 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e43720-1c2a-467a-bca8-5dd65b5d44b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8614efea-67ff-48b2-87e7-4480770c82ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbb81fb1-7fca-4547-a92c-baab61ce3092")
 		(sheetname "/")
@@ -6708,7 +7147,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 0 3.1 90)
+			(at 6.35 0.1 90)
 			(layer "F.Fab")
 			(uuid "c034dcad-60a5-471f-bdaa-142dae7b2eba")
 			(effects
@@ -6730,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Description" "T521D107M025ATE040"
+		(property "Description" "CAP TANT 100uF 25V 20% 7343"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6826,6 +7265,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7daea432-6791-4d4f-baf0-a63339a6a29d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "T521D107M025ATE040"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa12dc98-35a5-4c04-a366-3b8d1d54108f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fcc64aa-97b3-4175-b86d-b069a8931003")
 			(effects
 				(font
 					(size 1 1)
@@ -7020,7 +7485,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at 0 -7.25 180)
 			(layer "F.Fab")
 			(uuid "73206720-b757-4956-9da7-5440e166b0ee")
 			(effects
@@ -7050,6 +7515,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3390b19b-29d5-4dd8-bc1c-ab7b2335d4f0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7358,7 +7836,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at -0.05 -7.35 180)
 			(layer "F.Fab")
 			(uuid "7af7d1b5-8174-456d-9564-51d13247af16")
 			(effects
@@ -7388,6 +7866,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ad20bd-4498-4cb3-ba55-82b7cdaaa763")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7461,7 +7952,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at 3.35 0.1 90)
 			(layer "F.Fab")
 			(uuid "b16d6f37-af67-4986-a1be-016409cbcbe5")
 			(effects
@@ -7484,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7666,6 +8157,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "663cb15c-246e-4c12-b0ec-a0bd46a1c36e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4387d171-a560-47b9-aabe-7b91e77073bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6075eddb-aa14-4a0b-8ff8-3bf2d468b3b5")
 		(sheetname "/")
@@ -7832,7 +8349,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 90)
+			(at 3.6 0.1 90)
 			(layer "F.Fab")
 			(uuid "d8f45734-40a2-40a0-8d2c-5a409ce79913")
 			(effects
@@ -7855,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8037,6 +8554,32 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3288794-9c39-48c8-9d96-74339def693e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "963811d5-8b05-4fd6-8a45-ae18f6f9eda7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1509d613-ee31-4b51-b96e-1816ed9352b5")
 		(sheetname "/")
@@ -8203,7 +8746,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.43 0)
+			(at 2.4 0.1 0)
 			(layer "F.Fab")
 			(uuid "94ff3d31-18be-440b-9f2e-45d169757c8a")
 			(effects
@@ -8235,6 +8778,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d61ae182-ade4-4b72-9b70-71a26a284931")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8405,7 +8961,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 90)
+			(at 3.6 0.1 90)
 			(layer "F.Fab")
 			(uuid "8ecd8f0e-e6b0-49d5-a70d-9483252bd321")
 			(effects
@@ -8428,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8610,6 +9166,32 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44fc840-4ee8-4bbd-b1e0-e9db6b0c4b1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09552edc-10f5-43bf-bb37-4bed83469169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/341a6f23-d274-4ce3-8ca3-1f8016f1871f")
 		(sheetname "/")
@@ -8777,7 +9359,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.85 0)
+			(at 8.8 -0.2 0)
 			(layer "F.Fab")
 			(uuid "eed5c5cd-d03f-4c66-84d7-87817dfe0ee8")
 			(effects
@@ -8904,6 +9486,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a9d430-5f92-4e19-98e9-d560d7e2b46a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/487c5f34-71d5-442d-be3f-40ccf3fc2bde")
 		(sheetname "/")
@@ -8981,7 +9576,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 90)
+			(at 0 1.9 90)
 			(layer "F.Fab")
 			(uuid "4b460ad1-5c8d-4934-8f7d-4217b2de0fc5")
 			(effects
@@ -9004,7 +9599,7 @@
 				)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9186,6 +9781,32 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19570ac7-efc1-45bd-9c7f-630c295e8fcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da057814-85c3-4a9d-92ac-0a791fd36292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3269f120-fe1a-4359-ba59-5489f6d4c47e")
 		(sheetname "/")
@@ -9352,7 +9973,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 90)
+			(at 3.6 0.1 90)
 			(layer "F.Fab")
 			(uuid "022cb0d1-af48-4cab-8a26-2e955e8171db")
 			(effects
@@ -9375,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9557,6 +10178,32 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa5379e9-0372-43d1-b031-7dc15573757f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b22ac52-6269-4b93-b3c9-83e4251391b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c6e89b75-02aa-45a8-a3f8-a0251b6f6f47")
 		(sheetname "/")
@@ -9714,7 +10361,7 @@
 			(at 0 -2.3 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6461ae4f-a9c5-449b-81e4-f696622f8268")
+			(uuid "1193bea7-6e2a-4b6f-8666-831968fe1ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -9723,9 +10370,9 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at 3.65 0 90)
 			(layer "F.Fab")
-			(uuid "82c4852f-573b-4f37-b8d8-a74df5f1ad32")
+			(uuid "4ca60675-fcba-4bc8-ba36-eaa2ca69ac84")
 			(effects
 				(font
 					(size 1 1)
@@ -9738,7 +10385,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e198af9-0815-4861-a275-85da9c51d10c")
+			(uuid "153f169b-c86c-45ff-8ee0-960b9e803599")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,12 +10393,12 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6282012-acb3-4cfe-959d-ddc42f80b3c8")
+			(uuid "6759893d-b7a4-4d69-a002-963a5131eb41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,6 +10575,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed28a1e8-0eb8-4116-8106-5020b6764c09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1564e016-1b69-46e8-95d1-1f38b73ec974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c1f872f8-f347-4fb2-a176-f6ef8f2ade04")
 		(sheetname "/")
@@ -10094,7 +10767,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at 3.85 0.1 90)
 			(layer "F.Fab")
 			(uuid "80d5c571-7f53-42d8-a696-3da5a7de4042")
 			(effects
@@ -10117,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10292,6 +10965,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74021824-a07e-4b10-b375-34ee9c1b8e22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5390a06a-43fa-4ecb-9f85-6c4012d15488")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84060e96-8428-4bdf-9fb8-cd2ef5940d5a")
 			(effects
 				(font
 					(size 1 1)
@@ -10728,13 +11427,14 @@
 			)
 		)
 		(property "Value" "68pF"
-			(at 0 1.43 90)
+			(at -1.875 0.1 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c4f189b4-7172-47de-b7fe-91bca38c596a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -10751,7 +11451,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10C680JB8NNNC"
+		(property "Description" "CAP CER 68pF 50V C0G 5% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10933,6 +11633,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL10C680JB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d09a53f0-6c6e-425d-bc49-bedd2a88f7a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05885c9b-66fd-4e20-8305-d21ee62d154c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f6964ab6-221b-430e-8ed9-16bcaf6278eb")
 		(sheetname "/")
@@ -11099,7 +11825,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at -2.35 -0.5 180)
 			(layer "F.Fab")
 			(uuid "8d855ffd-6840-4902-a8cf-1a6ce7d8a27f")
 			(effects
@@ -11122,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11304,6 +12030,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26776acd-c353-4864-a59b-7a6c34e1f987")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b292591f-bb9e-4bc1-8c3f-6f0f0697d800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cca7a109-1a38-41dd-b0c6-f64d39ce761e")
 		(sheetname "/")
@@ -11470,13 +12222,14 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 0 1.43 0)
+			(at 0 -0.75 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0459e532-3555-4268-9b51-faf19632c878")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -11493,7 +12246,7 @@
 				)
 			)
 		)
-		(property "Description" "CL10B473KB8NNNC"
+		(property "Description" "CAP CER 47nF 50V X7R 10% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11675,6 +12428,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL10B473KB8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2218334-9c36-4663-9a60-634fc3f42025")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5d00c5e-ea50-4e62-bd2c-41ecf5bf2e30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7c5e5b4a-b591-454d-ac9d-0ab330efdea1")
 		(sheetname "/")
@@ -11841,13 +12620,14 @@
 			)
 		)
 		(property "Value" "2.26k"
-			(at 0 1.43 0)
+			(at 0 -0.75 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0b65e9eb-5f1d-40ff-a392-86235ae6ed99")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -11864,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Description" "RT0603BRD076K81L"
+		(property "Description" "RES 2.26kΩ 0.1% 50V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12046,6 +12826,32 @@
 				)
 			)
 		)
+		(property "Part Number" "RT0603BRD076K81L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e45150d-f157-457e-8b56-e5342ad562e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec15a83c-8c91-468d-bf10-ecb1d459071b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f48e8f9d-2863-44d7-bb09-6df07318d17f")
 		(sheetname "/")
@@ -12212,7 +13018,7 @@
 			)
 		)
 		(property "Value" "70V"
-			(at 0 4.2 90)
+			(at -4.55 -0.1 180)
 			(layer "F.Fab")
 			(uuid "ad3a048c-2fd0-4108-96e1-3cb6f157b84d")
 			(effects
@@ -12235,7 +13041,7 @@
 				)
 			)
 		)
-		(property "Description" "5.0SMDJ64A"
+		(property "Description" "DIODE TVS 64V 5000W UNI SMC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12319,6 +13125,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1ef845e-e89b-4596-acbb-0590a8c4dde8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "5.0SMDJ64A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4576a910-a8c1-4741-945c-24a444487b90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Liown"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e971179-c019-4084-a507-dcb6ca6a0c71")
 			(effects
 				(font
 					(size 1 1)
@@ -12502,7 +13334,7 @@
 			(uuid "3aa66fcd-ab73-46e6-9822-9cbda68d2c84")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.9 90)
+			(at 2.45 -0.1 180)
 			(layer "F.Fab")
 			(uuid "7f1d8689-ca16-41f9-9bc7-3b12763af3b9")
 			(effects
@@ -12565,7 +13397,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 1.6 0)
+			(at -0.35 -2.4 0)
 			(layer "F.Fab")
 			(uuid "db11f41c-8272-4aeb-accc-e6299d91f6aa")
 			(effects
@@ -12718,6 +13550,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f593d670-65fd-48c1-b6fe-103400ab7d6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/214755f3-086e-4b2c-b500-4ac7b36516b8")
 		(sheetname "/")
@@ -12812,13 +13657,14 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 0 1.43 90)
+			(at 0 0.9 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7318f24a-62ff-46d4-bd40-71f8ac759644")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -12835,7 +13681,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF1503T5E"
+		(property "Description" "RES 150kΩ 1% 75V 100mW 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12932,6 +13778,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8af89558-59e4-4e00-9217-6ae759dd21f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "0603WAF1503T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f688d299-d455-4a6d-940d-2a4f43fb6a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e8e35df-212d-4859-81ea-112a58ad7538")
 			(effects
 				(font
 					(size 1 1)
@@ -13105,13 +13977,14 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 0 1.43 0)
+			(at -1.75 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fc900de0-5797-4b79-8f44-a452f24f98b1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -13128,7 +14001,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13310,6 +14183,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cce5be53-5556-427e-bfec-f22d444ebf38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4377306-7f7b-4736-b90e-5fc12438d161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/21524225-805c-4a5e-9d56-45f50de740b8")
 		(sheetname "/")
@@ -13476,7 +14375,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 0 6.7 90)
+			(at 2.15 -0.1 180)
 			(layer "F.Fab")
 			(uuid "4ed12728-8e02-4204-bc24-132b4efca2bd")
 			(effects
@@ -13486,7 +14385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://productfinder2.pulseelectronics.com/part/pa4342.472nlt"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13499,7 +14398,7 @@
 				)
 			)
 		)
-		(property "Description" "SRP1038A-4R7M"
+		(property "Description" "INDUCTOR 4.7uH 10A 15mΩ"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13674,6 +14573,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af697abd-ced8-4c10-b068-638c0cf35266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "SRP1038A-4R7M"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24a3fd89-16a9-453d-9c31-cdaef8360271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd4451b7-08b7-45ac-b4b7-52855e61c707")
 			(effects
 				(font
 					(size 1 1)
@@ -14015,7 +14940,7 @@
 			(uuid "cc47a158-ccc9-42ba-8a82-bc0689af4d65")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "03d82c42-38d9-44e2-85b3-0365bddda011")
 			(effects
@@ -14076,7 +15001,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.85 0)
+			(at 8.8 0.25 0)
 			(layer "F.Fab")
 			(uuid "238c33b4-2b93-4b88-b144-23c927e7456f")
 			(effects
@@ -14196,6 +15121,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "689106c6-b079-4dff-b514-4bce638d0828")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd3cad0e-a0e3-4b2b-b992-56be78bfff3f")
 			(effects
 				(font
 					(size 1 1)
@@ -14713,7 +15651,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.82 0)
+			(at -2.4 0 0)
 			(layer "F.Fab")
 			(uuid "241e0780-2b17-4d10-9481-91ca69a60a99")
 			(effects
@@ -14736,7 +15674,7 @@
 				)
 			)
 		)
-		(property "Description" "1206W4F0000T5E"
+		(property "Description" "RES 0Ω 1% 200V 250mW 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14833,6 +15771,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afe96a65-ab0c-47f2-bdcb-24cfe260eb97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1206W4F0000T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4cf8009-6591-4988-adaf-b71bf511975f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38852f9e-85c9-4c77-a465-b6a2969a1775")
 			(effects
 				(font
 					(size 1 1)
@@ -15029,7 +15993,7 @@
 				)
 			)
 		)
-		(property "Description" "KT-0805Y"
+		(property "Description" "LED YELLOW 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15217,6 +16181,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a556442-dd93-4c66-a49e-3c2daa55269f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "KT-0805Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01784a4-29bf-41d2-ab24-1968608358a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a96cff-7508-4d33-9fae-81fa8276622f")
 			(effects
 				(font
 					(size 1 1)
@@ -15412,13 +16402,14 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 0 0.875 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "38183a77-082c-4bd7-a1ba-6997e5a0a0d2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -15435,7 +16426,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF1002T5E"
+		(property "Description" "RES 10kΩ 1% 75V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15617,6 +16608,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f990f16-4090-419e-bc72-4c5b47a82086")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68685a85-9936-41ab-a3d8-d4ff26b6a4ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/de4ec0ad-49a8-4347-9b54-c893291c442d")
 		(sheetname "/")
@@ -15783,13 +16800,14 @@
 			)
 		)
 		(property "Value" "24k"
-			(at 0 1.43 0)
+			(at 0.15 0.85 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "07ae258c-7ec0-4fd3-8dcd-66662fcd0036")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -15806,7 +16824,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF2402T5E"
+		(property "Description" "RES 24kΩ 1% 75V 100mW 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15988,6 +17006,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF2402T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2188162e-966c-44c8-be97-a70b9d493849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b0b9cf3-9362-4d0c-b5aa-24ace59d6119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d5731687-c61f-4567-93f6-9cf2ed55c198")
 		(sheetname "/")
@@ -16154,13 +17198,14 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 0 1.43 0)
+			(at 0 0.9 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "46a20810-1a71-4923-aab1-d3e758eec85b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -16177,7 +17222,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16359,6 +17404,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38bde676-193a-4d2f-99a0-29912bd3ee4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f352c5c-91ba-4136-b5da-df3e96789eb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/83d73dfa-fd3a-472a-aa8c-7fa0287768a1")
 		(sheetname "/")
@@ -16525,13 +17596,14 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 0 1.43 0)
+			(at 1.85 0.15 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "897fb574-dafc-464f-a0fc-fefa42e1730f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -16548,7 +17620,7 @@
 				)
 			)
 		)
-		(property "Description" "CC0603JRNPO0BN120"
+		(property "Description" "CAP CER 12pF 100V NP0 5% 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16730,6 +17802,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603JRNPO0BN120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c000b08-0380-42ed-95b2-b818effae942")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df62e232-e500-4e16-9fce-b882ec839551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/63b07017-673a-4b54-8370-d098f2f6e596")
 		(sheetname "/")
@@ -16896,13 +17994,14 @@
 			)
 		)
 		(property "Value" "3.48k"
-			(at 0 1.43 0)
+			(at 0 1 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aaf2bc0b-4412-4cec-b025-f7f4db0df526")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -16919,7 +18018,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAD3481T5E"
+		(property "Description" "RES 3.48kΩ 0.5% 50V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17101,6 +18200,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAD3481T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22f80770-3ab0-46f1-9a61-c15a3a43c77f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701e1902-76b6-4a3b-aeb1-0130278b459d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/95da55fb-8133-42bc-ac82-97c4f5991990")
 		(sheetname "/")
@@ -17267,13 +18392,14 @@
 			)
 		)
 		(property "Value" "430"
-			(at 0 1.43 90)
+			(at 0 0.9 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4e4bab05-6683-40b5-999d-4ce4684715d1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -17290,7 +18416,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF4300T5E"
+		(property "Description" "RES 430Ω 1% 75V 100mW 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17472,6 +18598,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0603WAF4300T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a7a60a4-8cc7-412f-9aa4-738d639b4ca8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8becbce7-171e-4b49-bb5f-5571761e4c96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d848f1b-6ca1-443d-828d-0fc0db8766d6")
 		(sheetname "/")
@@ -17638,7 +18790,7 @@
 			)
 		)
 		(property "Value" "8V"
-			(at 0 2.4 0)
+			(at 1.75 0 0)
 			(layer "F.Fab")
 			(uuid "92bb0edb-6ff2-4d66-a2ba-9f4322d23732")
 			(effects
@@ -17660,7 +18812,7 @@
 				)
 			)
 		)
-		(property "Description" "SM08"
+		(property "Description" "DIODE TVS 8V BI SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17743,6 +18895,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1390b599-778f-4b73-995c-49fb9f0975bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "SM08"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d5c8eb9-8b4f-42ac-92f7-00ee0afa52e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Zhuhai Hongjiacheng"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78cc5ab2-2b89-4900-bdca-f86072d200a8")
 			(effects
 				(font
 					(size 1 1)
@@ -17971,7 +19149,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.85 0)
+			(at -8.9 0.05 0)
 			(layer "F.Fab")
 			(uuid "7d3c6d93-3ca3-4a66-b1d1-dcf477e3e4c9")
 			(effects
@@ -18098,6 +19276,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb613e77-6085-4f18-8539-3d307ea9a460")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/3c3f2fc8-90cb-43bf-b2b0-aeaefcb29fa9")
 		(sheetname "/")
@@ -18176,7 +19367,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at 0 -7.35 180)
 			(layer "F.Fab")
 			(uuid "dc25d888-9f78-4a8e-9618-6b04a273f9bf")
 			(effects
@@ -18206,6 +19397,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "051f4a12-1817-4d86-a0be-7c85621f8db5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18478,7 +19682,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 1.6 0)
+			(at 0 2.35 0)
 			(layer "F.Fab")
 			(uuid "498db86a-9db6-4598-80e4-e23bf15f1614")
 			(effects
@@ -18631,6 +19835,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b65bd8dd-1415-4fbb-af69-f8c9a8cc3c32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/0690430e-6804-4cd4-a22e-61617b2265cc")
 		(sheetname "/")
@@ -18725,13 +19942,14 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 0 1.43 90)
+			(at 0 1.15 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "13d74b29-3666-405b-9e36-36b9bfe19fa6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -18748,7 +19966,7 @@
 				)
 			)
 		)
-		(property "Description" "0603WAF1202T5E"
+		(property "Description" "RES 12kΩ 1% 75V 100mW 0603"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18845,6 +20063,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4cdb273c-1bbe-4f3d-95f6-2f54041c01c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "0603WAF1202T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d5c303d-df57-4831-a446-9290b2eec556")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f81a1e21-496d-4ed7-af2d-b02c0ca7c184")
 			(effects
 				(font
 					(size 1 1)
@@ -19041,7 +20285,7 @@
 				)
 			)
 		)
-		(property "Description" "0805W8F1001T5E"
+		(property "Description" "RES 1kΩ 1% 150V 125mW 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19223,6 +20467,32 @@
 				)
 			)
 		)
+		(property "Part Number" "0805W8F1001T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee5013b0-c9c5-4ff6-aa31-1d0ea44e66cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22730779-5d0a-4d82-a9cc-e57558715d97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/81ef2d30-e5a7-4db7-b6f0-fe54a3e0b6b9")
 		(sheetname "/")
@@ -19380,7 +20650,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dd6fb996-5c7f-47ef-ad94-1516427dc40b")
+			(uuid "768203af-a1f6-461f-9fe3-7cb1266c8294")
 			(effects
 				(font
 					(size 1 1)
@@ -19389,14 +20659,14 @@
 			)
 		)
 		(property "Value" "LM5146RGYR"
-			(at 0 0 90)
+			(at 2.1 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d8d521a6-275f-430b-8b02-e66f571c8010")
+			(uuid "80e18e29-192b-4930-b37a-329dd93a31c6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -19404,7 +20674,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "837c6dcd-3cad-4f95-91bf-fb79fcc1b03d")
+			(uuid "2046a7c1-96a5-4df6-9c6a-5c8c044dd791")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,11 +20682,11 @@
 				)
 			)
 		)
-		(property "Description" "LM5146RGYR"
+		(property "Description" "IC BUCK SYNC Controller VQFN-20"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff3c3f9b-2a26-4a3a-acf2-6fee1cef75ea")
+			(uuid "258b0603-ada9-4a90-998c-9eb50fc0bd2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19573,6 +20843,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4525d2f-f2a0-4f71-bd31-6209a922ede9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LM5146RGYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8d8a1e-db1b-483e-9694-a308d02c017e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8076692e-8f92-4a1b-b088-585ac31f5e1f")
 			(effects
 				(font
 					(size 1 1)
@@ -19801,7 +21097,7 @@
 			(uuid "d4cec5a7-70ef-43e5-abfd-708c358da98e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.6 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3f9adbd9-efc6-4461-8a74-b42ba8c863d5")
@@ -20077,7 +21373,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at -2.35 0.5 180)
 			(layer "F.Fab")
 			(uuid "1cc6054e-bf78-498d-9d99-c559c0edc314")
 			(effects
@@ -20100,7 +21396,7 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20178,7 +21474,7 @@
 				)
 			)
 		)
-		(property "ESR" "2.5mΩ"
+		(property "ESR" "3.4mΩ"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20275,6 +21571,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa886ae9-c759-4fef-9c8e-4c2cd4670f7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "961cacc0-c1a7-4ffd-8eda-d3eef8696bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74bbca1b-470d-4d56-a9a4-9456edc9b8ee")
 			(effects
 				(font
 					(size 1 1)
@@ -20448,7 +21770,7 @@
 			)
 		)
 		(property "Value" "SolderPad"
-			(at 0 2.54 90)
+			(at 0 -5.85 180)
 			(layer "F.Fab")
 			(uuid "ff982b7e-4684-42dd-acd1-0038eab9ab68")
 			(effects
@@ -20478,6 +21800,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e749ad71-b192-40f8-97b6-a2c4fec514af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20551,7 +21886,7 @@
 			)
 		)
 		(property "Value" "60V"
-			(at 0 2 0)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "67241354-f057-4a9b-aa5d-1483c8ff0907")
 			(effects
@@ -20574,7 +21909,7 @@
 				)
 			)
 		)
-		(property "Description" "SMF60A"
+		(property "Description" "DIODE TVS 60V UNI SOD-123FL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20658,6 +21993,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89f09fed-b54e-4d07-982d-b5a2c9656c07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "SMF60A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4468f61-9fb9-40b7-a1d0-204d37e91b9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Zhuhai Hongjiacheng"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce0ffa32-9c84-4cb3-ba65-e478b7730b0c")
 			(effects
 				(font
 					(size 1 1)
@@ -20841,7 +22202,7 @@
 			(uuid "fe036ffa-c347-40cc-8a72-27197697d175")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "d126ad20-6998-4949-a9e3-410ce021d2b2")
 			(effects
@@ -20903,7 +22264,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 90)
+			(at 3.65 0 90)
 			(layer "F.Fab")
 			(uuid "05aafa1e-9e3c-49bd-abe3-4f3904c6d544")
 			(effects
@@ -20926,7 +22287,7 @@
 				)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21108,6 +22469,32 @@
 				)
 			)
 		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95528be4-2b13-4666-9ec7-e85deed1eb44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8eed9bc-7e44-4812-9a9f-ffce6f8cd04b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/be38338e-c914-46af-b78e-05119a6be7bd")
 		(sheetname "/")
@@ -21275,13 +22662,14 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.43 90)
+			(at 0 -1 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2dc0c8ea-4b5b-4e40-8779-a68a654091d7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -21421,6 +22809,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de2070d2-2884-4c38-8f53-03fa2324ac67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99606445-4f3e-4751-bb69-1a2b17dd6d1c")
 			(effects
 				(font
 					(size 1 1)
@@ -21595,7 +22996,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 1.6 0)
+			(at 6.75 0.05 0)
 			(layer "F.Fab")
 			(uuid "fd3e28f4-0b39-4b69-9e06-8884b3441f3b")
 			(effects
@@ -21741,6 +23142,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a684effc-6bde-469d-926e-a3d4fd6d1512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd4702f5-e1d4-4d29-bb08-db69a6cce59a")
 			(effects
 				(font
 					(size 1 1)
@@ -23187,6 +24601,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5590e7cb-b247-48b2-ae62-778a966b2a59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/b69aea55-0cd9-40b5-8f0a-832b5a1afb43")
 		(sheetname "/")
@@ -23388,6 +24816,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4a5b26e9-b124-41e6-bb9f-50ca44f0d396")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -24205,6 +25647,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "952d2544-e623-4dfd-9134-457df3857141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f4e8205-9a62-4d61-8ceb-ba4e18641985")
 			(effects
 				(font
 					(size 1 1)
@@ -25417,6 +26873,15 @@
 		(uuid "02205ca3-e95d-4088-aed2-56d2645bce1b")
 	)
 	(via
+		(at 162.5 119)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "04230c94-95c6-4202-9347-9b1a871ea0f9")
+	)
+	(via
 		(at 132.25 125.85)
 		(size 0.6)
 		(drill 0.3)
@@ -25905,6 +27370,15 @@
 		(zone_layer_connections "In1.Cu" "In2.Cu")
 		(net 1)
 		(uuid "52686403-3077-4120-91ac-e8cb26b1f176")
+	)
+	(via
+		(at 161.5 119)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "53c69dd3-693d-4545-87c5-d591ed104bb1")
 	)
 	(via
 		(at 159.4 103.35)
@@ -26402,6 +27876,24 @@
 		(free yes)
 		(net 1)
 		(uuid "b028ea3b-7b8b-4bce-897b-ad277a41a832")
+	)
+	(via
+		(at 164.5 119)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "b26e626b-7d55-4a33-b788-8ec10d60e2da")
+	)
+	(via
+		(at 163.5 119)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "bbccf446-4750-4457-be2d-8eb66ff1f658")
 	)
 	(via
 		(at 132.4 108.85)

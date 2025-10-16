@@ -4597,17 +4597,6 @@
 		)
 		(uuid "14b69050-37c3-45e8-ab76-bf897122b24d")
 	)
-	(text "Revision involving CSD19537Q3\nrequires new footprint"
-		(exclude_from_sim no)
-		(at 167.64 110.236 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "1622cd59-9c5a-45e1-9aaf-5e993cc4821c")
-	)
 	(text "M3 Mounting Holes"
 		(exclude_from_sim no)
 		(at 29.972 233.68 0)
@@ -4688,6 +4677,17 @@
 			(justify left)
 		)
 		(uuid "77eff932-67a6-46c8-a201-2e00892f418f")
+	)
+	(text "depop. 0R\non R16 when\nusing snubber"
+		(exclude_from_sim no)
+		(at 215.646 150.114 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "8fc4667b-9237-46a9-b3aa-b403e8a47fc2")
 	)
 	(text "derated 10.0uF @ 50V"
 		(exclude_from_sim no)
@@ -8915,6 +8915,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 308.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "530c2f90-6517-46e4-8803-8a7e04beed46")
 		)
@@ -8991,33 +9000,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 34.29 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 34.29 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 34.29 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 34.29 240.03 0)
 			(effects
@@ -9037,6 +9019,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 34.29 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 34.29 240.03 0)
 			(effects
 				(font
@@ -9136,33 +9127,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 72.39 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 72.39 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 72.39 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 72.39 250.19 0)
 			(effects
@@ -9182,6 +9146,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 72.39 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 72.39 250.19 0)
 			(effects
 				(font
@@ -9246,6 +9219,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 355.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 355.6 132.08 0)
 			(effects
 				(font
@@ -9453,6 +9435,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 308.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cea57fc1-2cab-4bc8-8669-71b01ef8d163")
 		)
@@ -9512,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -9575,33 +9566,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 267.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 267.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 267.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 267.97 97.79 0)
 			(effects
@@ -9630,6 +9594,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -9699,7 +9681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -9753,34 +9735,7 @@
 				(hide yes)
 			)
 		)
-		(property "ESR" "2.5mΩ"
-			(at 260.35 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 260.35 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 260.35 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
+		(property "ESR" "3.4mΩ"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -9817,6 +9772,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -9887,6 +9860,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -10059,33 +10041,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 72.39 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 72.39 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 72.39 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 72.39 245.11 0)
 			(effects
@@ -10105,6 +10060,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 72.39 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 72.39 245.11 0)
 			(effects
 				(font
@@ -10167,7 +10131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -10230,33 +10194,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 73.66 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 73.66 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 73.66 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 73.66 167.64 0)
 			(effects
@@ -10285,6 +10222,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -10354,7 +10309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603BRE073K74L"
+		(property "Description" "RES 3.74kΩ 0.1% 75V 100mW 0603"
 			(at 248.92 186.69 0)
 			(effects
 				(font
@@ -10426,33 +10381,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 248.92 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 248.92 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 248.92 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 248.92 186.69 0)
 			(effects
@@ -10472,6 +10400,24 @@
 			)
 		)
 		(property "Voltage" "75V"
+			(at 248.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0603BRE073K74L"
+			(at 248.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 248.92 186.69 0)
 			(effects
 				(font
@@ -10540,7 +10486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "T521D107M025ATE040"
+		(property "Description" "CAP TANT 100uF 25V 20% 7343"
 			(at 328.93 143.51 0)
 			(effects
 				(font
@@ -10603,7 +10549,16 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "Part Number" "T521D107M025ATE040"
+			(at 328.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
 			(at 328.93 143.51 0)
 			(effects
 				(font
@@ -10673,7 +10628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LM5146RGYR"
+		(property "Description" "IC BUCK SYNC Controller VQFN-20"
 			(at 97.79 116.84 0)
 			(effects
 				(font
@@ -10736,33 +10691,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 97.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 97.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 97.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 97.79 116.84 0)
 			(effects
@@ -10782,6 +10710,24 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM5146RGYR"
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 97.79 116.84 0)
 			(effects
 				(font
@@ -10907,7 +10853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -10970,33 +10916,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 256.54 97.79 0)
 			(effects
@@ -11025,6 +10944,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -11093,7 +11030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -11156,33 +11093,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 245.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 245.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 245.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 245.11 97.79 0)
 			(effects
@@ -11211,6 +11121,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -11693,33 +11621,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 34.29 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 34.29 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 34.29 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 34.29 245.11 0)
 			(effects
@@ -11739,6 +11640,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 34.29 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 34.29 245.11 0)
 			(effects
 				(font
@@ -11837,33 +11747,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 226.06 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 226.06 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 226.06 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 226.06 198.12 90)
 			(effects
@@ -11883,6 +11766,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 226.06 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 226.06 198.12 90)
 			(effects
 				(font
@@ -12037,33 +11929,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 34.29 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 34.29 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 34.29 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 34.29 255.27 0)
 			(effects
@@ -12083,6 +11948,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 34.29 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 34.29 255.27 0)
 			(effects
 				(font
@@ -12144,7 +12018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603B472K500NT"
+		(property "Description" "CAP CER 4.7nF 50V X7R 10% 0603"
 			(at 182.88 172.72 0)
 			(effects
 				(font
@@ -12207,33 +12081,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Guangdong Fenghua"
-			(at 182.88 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 182.88 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 182.88 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 182.88 172.72 90)
 			(effects
@@ -12262,6 +12109,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 182.88 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603B472K500NT"
+			(at 182.88 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua"
 			(at 182.88 172.72 90)
 			(effects
 				(font
@@ -12328,7 +12193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF4300T5E"
+		(property "Description" "RES 430Ω 1% 75V 100mW 0603"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -12391,33 +12256,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 161.29 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 161.29 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 161.29 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 161.29 137.16 90)
 			(effects
@@ -12446,6 +12284,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 161.29 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF4300T5E"
+			(at 161.29 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 161.29 137.16 90)
 			(effects
 				(font
@@ -12579,7 +12435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF220KT5E"
+		(property "Description" "RES 2.2Ω 1% 75V 100mW 0603"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -12642,33 +12498,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 76.2 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 76.2 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 76.2 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 76.2 97.79 90)
 			(effects
@@ -12697,6 +12526,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 76.2 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF220KT5E"
+			(at 76.2 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 76.2 97.79 90)
 			(effects
 				(font
@@ -12766,7 +12613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF1202T5E"
+		(property "Description" "RES 12kΩ 1% 75V 100mW 0603"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -12802,15 +12649,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 69.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 69.85 124.46 0)
 			(effects
@@ -12830,6 +12668,24 @@
 			)
 		)
 		(property "Voltage" "75V"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1202T5E"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -12984,33 +12840,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 34.29 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 34.29 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 34.29 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 34.29 250.19 0)
 			(effects
@@ -13030,6 +12859,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 34.29 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 34.29 250.19 0)
 			(effects
 				(font
@@ -13129,33 +12967,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Wakefield-Vette"
-			(at 73.66 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 73.66 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 73.66 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 73.66 261.62 0)
 			(effects
@@ -13175,6 +12986,24 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 73.66 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 73.66 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wakefield-Vette"
 			(at 73.66 261.62 0)
 			(effects
 				(font
@@ -13239,7 +13068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -13302,33 +13131,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 210.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 210.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 210.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 210.82 97.79 0)
 			(effects
@@ -13357,6 +13159,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -13559,7 +13379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603JRNPO0BN120"
+		(property "Description" "CAP CER 12pF 100V NP0 5% 0603"
 			(at 154.94 140.97 0)
 			(effects
 				(font
@@ -13622,33 +13442,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 154.94 140.97 0)
 			(effects
@@ -13677,6 +13470,24 @@
 			)
 		)
 		(property "Tolerance" "5%"
+			(at 154.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO0BN120"
+			(at 154.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 154.94 140.97 0)
 			(effects
 				(font
@@ -13743,7 +13554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF220KT5E"
+		(property "Description" "RES 2.2Ω 1% 75V 100mW 0603"
 			(at 163.83 121.92 0)
 			(effects
 				(font
@@ -13806,33 +13617,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 163.83 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 163.83 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 163.83 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 163.83 121.92 90)
 			(effects
@@ -13861,6 +13645,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 163.83 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF220KT5E"
+			(at 163.83 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 163.83 121.92 90)
 			(effects
 				(font
@@ -13957,7 +13759,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(uuid "689555db-e9ca-4966-8796-4f4ccef4909d")
@@ -13998,6 +13800,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 321.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C5113349"
+			(at 321.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ESH476M100AH9AA"
 			(at 321.31 97.79 0)
 			(effects
 				(font
@@ -14122,7 +13942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://productfinder2.pulseelectronics.com/part/pa4342.472nlt"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf"
 			(at 228.6 132.08 0)
 			(effects
 				(font
@@ -14131,7 +13951,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SRP1038A-4R7M"
+		(property "Description" "INDUCTOR 4.7uH 10A 15mΩ"
+			(at 228.6 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRP1038A-4R7M"
 			(at 228.6 136.398 90)
 			(effects
 				(font
@@ -14192,33 +14021,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns"
-			(at 228.6 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 228.6 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 228.6 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 228.6 132.08 90)
 			(effects
@@ -14247,6 +14049,15 @@
 			)
 		)
 		(property "Tolerance" "20%"
+			(at 228.6 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
 			(at 228.6 132.08 90)
 			(effects
 				(font
@@ -14316,7 +14127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1206W4F0000T5E"
+		(property "Description" "RES 0Ω 1% 200V 250mW 1206"
 			(at 208.28 149.86 0)
 			(effects
 				(font
@@ -14335,15 +14146,6 @@
 			)
 		)
 		(property "LCSC PN" "C17888"
-			(at 208.28 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
 			(at 208.28 149.86 0)
 			(effects
 				(font
@@ -14380,6 +14182,24 @@
 			)
 		)
 		(property "Voltage" "200V"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1206W4F0000T5E"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 208.28 149.86 0)
 			(effects
 				(font
@@ -14450,6 +14270,15 @@
 			)
 		)
 		(property "Description" "SolderPad 1x03"
+			(at 347.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 347.98 223.52 0)
 			(effects
 				(font
@@ -14623,33 +14452,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 73.66 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 73.66 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 73.66 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 73.66 180.34 0)
 			(effects
@@ -14669,6 +14471,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 73.66 180.34 0)
 			(effects
 				(font
@@ -14737,7 +14548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL10B473KB8NNNC"
+		(property "Description" "CAP CER 47nF 50V X7R 10% 0603"
 			(at 63.5 173.99 0)
 			(effects
 				(font
@@ -14800,33 +14611,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 63.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 63.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 63.5 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 63.5 173.99 0)
 			(effects
@@ -14855,6 +14639,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B473KB8NNNC"
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 63.5 173.99 0)
 			(effects
 				(font
@@ -15120,7 +14922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0805W8F1001T5E"
+		(property "Description" "RES 1kΩ 1% 150V 125mW 0805"
 			(at 341.63 138.43 0)
 			(effects
 				(font
@@ -15183,33 +14985,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 341.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 341.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 341.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.125W"
 			(at 341.63 138.43 0)
 			(effects
@@ -15238,6 +15013,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 341.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0805W8F1001T5E"
+			(at 341.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 341.63 138.43 0)
 			(effects
 				(font
@@ -15306,7 +15099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 248.92 148.59 0)
 			(effects
 				(font
@@ -15369,33 +15162,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 248.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 248.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 248.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 248.92 148.59 0)
 			(effects
@@ -15424,6 +15190,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 248.92 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 248.92 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 248.92 148.59 0)
 			(effects
 				(font
@@ -15560,7 +15344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 306.07 143.51 0)
 			(effects
 				(font
@@ -15623,33 +15407,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 306.07 143.51 0)
 			(effects
@@ -15678,6 +15435,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 306.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 306.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 306.07 143.51 0)
 			(effects
 				(font
@@ -15749,6 +15524,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 308.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 308.61 102.87 0)
 			(effects
 				(font
@@ -15948,7 +15732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAD3481T5E"
+		(property "Description" "RES 3.48kΩ 0.5% 50V 100mW 0603"
 			(at 237.49 186.69 0)
 			(effects
 				(font
@@ -16011,33 +15795,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 237.49 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 237.49 186.69 0)
 			(effects
@@ -16072,6 +15829,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "0603WAD3481T5E"
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16199,7 +15974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -16262,33 +16037,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 82.55 102.87 0)
 			(effects
@@ -16317,6 +16065,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -16386,7 +16152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF1503T5E"
+		(property "Description" "RES 150kΩ 1% 75V 100mW 0603"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -16422,15 +16188,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 69.85 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 69.85 111.76 0)
 			(effects
@@ -16450,6 +16207,24 @@
 			)
 		)
 		(property "Voltage" "75V"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1503T5E"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -16621,33 +16396,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 72.39 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 72.39 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 72.39 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 72.39 240.03 0)
 			(effects
@@ -16667,6 +16415,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 72.39 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 72.39 240.03 0)
 			(effects
 				(font
@@ -16731,7 +16488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KT-0805Y"
+		(property "Description" "LED YELLOW 0805"
 			(at 341.63 148.59 0)
 			(effects
 				(font
@@ -16759,15 +16516,6 @@
 			)
 		)
 		(property "LCSC PN" "C2296"
-			(at 341.63 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
 			(at 341.63 148.59 90)
 			(effects
 				(font
@@ -16812,33 +16560,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Hubei KENTO Electronics"
-			(at 341.63 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 341.63 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 341.63 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 341.63 148.59 90)
 			(effects
@@ -16858,6 +16579,24 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 341.63 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "KT-0805Y"
+			(at 341.63 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Electronics"
 			(at 341.63 148.59 90)
 			(effects
 				(font
@@ -16989,7 +16728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX7R0BB104"
+		(property "Description" "CAP CER 100nF 100V X7R 10% 0603"
 			(at 153.67 121.92 0)
 			(effects
 				(font
@@ -17052,33 +16791,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 153.67 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 153.67 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 153.67 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 153.67 121.92 90)
 			(effects
@@ -17107,6 +16819,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 153.67 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R0BB104"
+			(at 153.67 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 153.67 121.92 90)
 			(effects
 				(font
@@ -17345,33 +17075,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 237.49 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 237.49 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 237.49 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 237.49 198.12 90)
 			(effects
@@ -17391,6 +17094,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 237.49 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 237.49 198.12 90)
 			(effects
 				(font
@@ -17525,7 +17237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 222.25 97.79 0)
 			(effects
 				(font
@@ -17588,33 +17300,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 222.25 97.79 0)
 			(effects
@@ -17643,6 +17328,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 222.25 97.79 0)
 			(effects
 				(font
@@ -17715,7 +17418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CSD19537Q3T"
+		(property "Description" "MOSFET N-CH 100V 53A VSON-8(3.3x3.3)"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -17769,15 +17472,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC ALT1" "C535732"
 			(at 186.69 116.84 0)
 			(effects
@@ -17788,6 +17482,24 @@
 			)
 		)
 		(property "PART ALT1" "IAUZ30N10S5L240"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CSD19537Q3T"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -17866,7 +17578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 271.78 143.51 0)
 			(effects
 				(font
@@ -17929,33 +17641,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 271.78 143.51 0)
 			(effects
@@ -17984,6 +17669,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 271.78 143.51 0)
 			(effects
 				(font
@@ -18053,7 +17756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -18116,33 +17819,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 283.21 143.51 0)
 			(effects
@@ -18171,6 +17847,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 283.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -18240,7 +17934,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMF60A"
+		(property "Description" "DIODE TVS 60V UNI SOD-123FL"
+			(at 328.93 190.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SMF60A"
 			(at 328.93 190.246 90)
 			(effects
 				(font
@@ -18259,15 +17963,6 @@
 			)
 		)
 		(property "LCSC PN" "C41376092"
-			(at 331.47 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Zhuhai Hongjiacheng"
 			(at 331.47 187.96 90)
 			(effects
 				(font
@@ -18295,6 +17990,15 @@
 			)
 		)
 		(property "Power" "200W"
+			(at 331.47 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Zhuhai Hongjiacheng"
 			(at 331.47 187.96 90)
 			(effects
 				(font
@@ -18362,7 +18066,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SM08"
+		(property "Description" "DIODE TVS 8V BI SOT-23"
+			(at 313.69 216.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SM08"
 			(at 313.69 216.662 90)
 			(effects
 				(font
@@ -18380,15 +18093,6 @@
 			)
 		)
 		(property "LCSC PN" "C42413902"
-			(at 313.69 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Zhuhai Hongjiacheng"
 			(at 313.69 223.52 0)
 			(effects
 				(font
@@ -18416,6 +18120,15 @@
 			)
 		)
 		(property "Power" "350W"
+			(at 313.69 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Zhuhai Hongjiacheng"
 			(at 313.69 223.52 90)
 			(effects
 				(font
@@ -18487,7 +18200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM32EC72A106KE05L"
+		(property "Description" "CAP CER 10uF 100V X7S 10% 1210"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -18550,33 +18263,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 233.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 233.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 233.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 233.68 97.79 0)
 			(effects
@@ -18605,6 +18291,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM32EC72A106KE05L"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -18674,7 +18378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 317.5 143.51 0)
 			(effects
 				(font
@@ -18737,33 +18441,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 317.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 317.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 317.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 317.5 143.51 0)
 			(effects
@@ -18792,6 +18469,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 317.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 317.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 317.5 143.51 0)
 			(effects
 				(font
@@ -18861,7 +18556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL32A226KAJNNNE"
+		(property "Description" "CAP CER 22uF 25V X5R 10% 1210"
 			(at 294.64 143.51 0)
 			(effects
 				(font
@@ -18924,33 +18619,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 294.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 294.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 294.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 294.64 143.51 0)
 			(effects
@@ -18979,6 +18647,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 294.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL32A226KAJNNNE"
+			(at 294.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 294.64 143.51 0)
 			(effects
 				(font
@@ -19114,7 +18800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL21A225KBQNNNE"
+		(property "Description" "CAP CER 2.2uF 50V X5R 10% 0805"
 			(at 43.18 173.99 0)
 			(effects
 				(font
@@ -19177,33 +18863,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 43.18 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 43.18 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 43.18 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 43.18 173.99 0)
 			(effects
@@ -19232,6 +18891,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A225KBQNNNE"
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 43.18 173.99 0)
 			(effects
 				(font
@@ -19300,7 +18977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF2402T5E"
+		(property "Description" "RES 24kΩ 1% 75V 100mW 0603"
 			(at 53.34 173.99 0)
 			(effects
 				(font
@@ -19363,33 +19040,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 53.34 173.99 0)
 			(effects
@@ -19418,6 +19068,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 53.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF2402T5E"
+			(at 53.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 53.34 173.99 0)
 			(effects
 				(font
@@ -19552,7 +19220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603B152K500NT"
+		(property "Description" "CAP CER 1.5nF 50V X7R 10% 0603"
 			(at 238.76 153.67 0)
 			(effects
 				(font
@@ -19615,33 +19283,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Guangdong Fenghua"
-			(at 238.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 238.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 238.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 238.76 153.67 0)
 			(effects
@@ -19670,6 +19311,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603B152K500NT"
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua"
 			(at 238.76 153.67 0)
 			(effects
 				(font
@@ -19737,7 +19396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF1002T5E"
+		(property "Description" "RES 10kΩ 1% 75V 100mW 0603"
 			(at 195.58 172.72 0)
 			(effects
 				(font
@@ -19800,33 +19459,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 195.58 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 195.58 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 195.58 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 195.58 172.72 90)
 			(effects
@@ -19855,6 +19487,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 195.58 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 195.58 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 195.58 172.72 90)
 			(effects
 				(font
@@ -20022,33 +19672,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 148.59 186.69 0)
 			(effects
@@ -20068,6 +19691,15 @@
 			)
 		)
 		(property "Voltage" ""
+			(at 148.59 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 148.59 186.69 0)
 			(effects
 				(font
@@ -20203,7 +19835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0603BRD076K81L"
+		(property "Description" "RES 2.26kΩ 0.1% 50V 100mW 0603"
 			(at 226.06 186.69 0)
 			(effects
 				(font
@@ -20266,33 +19898,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 226.06 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 226.06 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 226.06 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 226.06 186.69 0)
 			(effects
@@ -20327,6 +19932,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD076K81L"
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20390,7 +20013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF680JT5E"
+		(property "Description" "RES 68Ω 1% 75V 100mW 0603"
 			(at 238.76 143.51 0)
 			(effects
 				(font
@@ -20455,33 +20078,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 238.76 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 238.76 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 238.76 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 238.76 143.51 0)
 			(effects
@@ -20510,6 +20106,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF680JT5E"
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 238.76 143.51 0)
 			(effects
 				(font
@@ -20589,6 +20203,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 308.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0268847-c4eb-4ecc-aadb-60b7266cc0cd")
 		)
@@ -20645,7 +20268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CL10C680JB8NNNC"
+		(property "Description" "CAP CER 68pF 50V C0G 5% 0603"
 			(at 189.23 182.88 0)
 			(effects
 				(font
@@ -20708,33 +20331,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 189.23 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 189.23 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 189.23 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" ""
 			(at 189.23 182.88 90)
 			(effects
@@ -20763,6 +20359,24 @@
 			)
 		)
 		(property "Tolerance" "5%"
+			(at 189.23 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10C680JB8NNNC"
+			(at 189.23 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 189.23 182.88 90)
 			(effects
 				(font
@@ -20841,6 +20455,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 355.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a17ff65-b15f-46d2-b3ac-1d43d6f58caf")
 		)
@@ -20898,7 +20521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603WAF2002T5E"
+		(property "Description" "RES 20kΩ 1% 75V 100mW 0603"
 			(at 92.71 163.83 0)
 			(effects
 				(font
@@ -20961,33 +20584,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Power" "0.1W"
 			(at 92.71 163.83 0)
 			(effects
@@ -21016,6 +20612,24 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF2002T5E"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 92.71 163.83 0)
 			(effects
 				(font
@@ -21094,6 +20708,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 347.98 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb142cd5-78e6-4dbc-8021-86a3617280a6")
 		)
@@ -21154,7 +20777,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.0SMDJ64A"
+		(property "Description" "DIODE TVS 64V 5000W UNI SMC"
+			(at 281.94 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5.0SMDJ64A"
 			(at 281.94 100.076 90)
 			(effects
 				(font
@@ -21199,7 +20832,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Liown"
+		(property "Power" "5000W"
 			(at 279.4 97.79 90)
 			(effects
 				(font
@@ -21208,7 +20841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "5000W"
+		(property "Manufacturer" "Liown"
 			(at 279.4 97.79 90)
 			(effects
 				(font
@@ -21280,7 +20913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BSZ096N10LS5"
+		(property "Description" "MOSFET N-CH 100V 62A TSDSON-8FL"
 			(at 186.69 149.86 0)
 			(effects
 				(font
@@ -21334,15 +20967,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Infineon Technologies"
-			(at 186.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC ALT1" "C534697"
 			(at 186.69 149.86 0)
 			(effects
@@ -21353,6 +20977,24 @@
 			)
 		)
 		(property "PART ALT1" "BSZ097N10NS5"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BSZ096N10LS5"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
 			(at 186.69 149.86 0)
 			(effects
 				(font
