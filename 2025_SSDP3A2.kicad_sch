@@ -19808,7 +19808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.26k"
+		(property "Value" "6.81k"
 			(at 223.266 186.69 0)
 			(effects
 				(font
@@ -19835,7 +19835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2.26kΩ 0.1% 50V 100mW 0603"
+		(property "Description" "RES 6.81kΩ 0.1% 50V 100mW 0603"
 			(at 226.06 186.69 0)
 			(effects
 				(font
