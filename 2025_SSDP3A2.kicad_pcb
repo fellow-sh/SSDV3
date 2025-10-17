@@ -12820,7 +12820,7 @@
 				)
 			)
 		)
-		(property "Value" "2.26k"
+		(property "Value" "6.81k"
 			(at 0 -0.75 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12845,7 +12845,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.26kΩ 0.1% 50V 100mW 0603"
+		(property "Description" "RES 6.81kΩ 0.1% 50V 100mW 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
