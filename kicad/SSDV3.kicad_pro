@@ -68,8 +68,16 @@
           "HV to HV clearance exception"
         ],
         [
-          "clearance|168217500|113327500|7dc7969e-17b5-4f56-b13f-18a5fedfa738|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1",
-          "HV to HV clearance exception"
+          "clearance|168250000|113305000|7dc7969e-17b5-4f56-b13f-18a5fedfa738|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1",
+          ""
+        ],
+        [
+          "clearance|168500000|112584000|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8|7dc7969e-17b5-4f56-b13f-18a5fedfa738",
+          ""
+        ],
+        [
+          "solder_mask_bridge|154525000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|aefb76a7-b6ba-42c1-ab7b-e40b0516f1cd",
+          ""
         ],
         [
           "solder_mask_bridge|154525000|121150000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9aeff74f-6c20-4403-9cfe-c46bbdfb558e",
@@ -494,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2025_SSDP3A2.kicad_pro",
+    "filename": "SSDV3.kicad_pro",
     "version": 3
   },
   "net_settings": {
