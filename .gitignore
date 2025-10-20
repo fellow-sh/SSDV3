@@ -1,11 +1,19 @@
 2025_SSDP3A2-backups/
 production/
 
+# Kicad specific config files
+**.kicad_prl
+**fabrication-toolkit-options.json
 fp-info-cache
 
+*.bak
 *.zip
 
 # ltspice output files
 *.log
 *.raw
 *.net
+
+# license-restricted files
+**/lib/SnapMagic/**
+**/lib/UltraLibrarian/**

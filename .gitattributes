@@ -1,0 +1,3 @@
+*.kicad_pcb linguist-detectable
+*.kicad_pro linguist-detectable
+*.kicad_sch linguist-detectable
