@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Super Step Down V3")
-		(date "2025-10-19")
+		(date "2025-10-20")
 		(rev "C")
 		(company "UBCO Aerospace [Julian Joaquin]")
 		(comment 1 "A 12S battery eliminator circuit (BEC) for UAS applications.")
@@ -11368,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:RGY0020B-MFG"
+		(property "Footprint" "ul_LM5146RGYR:RGY0020B-MFG-ThermalVias"
 			(at 101.6 124.46 0)
 			(effects
 				(font
