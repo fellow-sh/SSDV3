@@ -76,15 +76,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|154525000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|aefb76a7-b6ba-42c1-ab7b-e40b0516f1cd",
+          "solder_mask_bridge|154525000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|b6f02e25-7279-4eb7-9bd6-7b64c1b1d08b",
           ""
         ],
         [
-          "solder_mask_bridge|154525000|121150000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|9aeff74f-6c20-4403-9cfe-c46bbdfb558e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|154774999|122125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
+          "solder_mask_bridge|154650000|122125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
           ""
         ]
       ],
@@ -666,7 +662,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

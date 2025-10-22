@@ -11368,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_LM5146RGYR:RGY0020B-MFG-ThermalVias"
+		(property "Footprint" "Package_QFN_JJ:Texas_RGY0020B_EP_3.5x4.5mm_P0.5mm_ThermalVias-D0.3mm"
 			(at 101.6 124.46 0)
 			(effects
 				(font
