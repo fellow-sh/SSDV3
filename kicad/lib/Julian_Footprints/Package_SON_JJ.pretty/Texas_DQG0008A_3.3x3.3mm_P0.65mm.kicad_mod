@@ -6,7 +6,7 @@
 	(descr "8 Pin Plastic Dual Flat, No Leads (https://www.ti.com/lit/pdf/mpss012c) by Julian Joaquin")
 	(tags "VSON-8 CLIP")
 	(property "Reference" "REF**"
-		(at 0 -2.1 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9366a4e7-2dd0-4196-a83a-a343862759bc")
@@ -55,6 +55,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(fp_rect
 		(start -0.5 -1.175)
 		(end 1.15 1.175)
