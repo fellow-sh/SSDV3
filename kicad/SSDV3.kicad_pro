@@ -76,6 +76,10 @@
           ""
         ],
         [
+          "solder_mask_bridge|154525000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|2b64215b-036f-4654-915c-5cc2efd17b1f",
+          ""
+        ],
+        [
           "solder_mask_bridge|154650000|122125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
           ""
         ]
@@ -584,6 +588,14 @@
       {
         "netclass": "HV Power",
         "pattern": "/U1_VIN"
+      },
+      {
+        "netclass": "HV Power",
+        "pattern": "/U1_GATE"
+      },
+      {
+        "netclass": "HV Power",
+        "pattern": "/U1_VS"
       }
     ]
   },
@@ -754,6 +766,30 @@
           "group_by": false,
           "label": "FT Rotation Offset",
           "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rds(on)",
+          "name": "Rds(on)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qg",
+          "name": "Qg",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qoss",
+          "name": "Qoss",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qrr",
+          "name": "Qrr",
           "show": false
         }
       ],

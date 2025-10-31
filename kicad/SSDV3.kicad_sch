@@ -8,7 +8,7 @@
 		(title "Super Step Down V3")
 		(date "2025-10-20")
 		(rev "C")
-		(company "UBCO Aerospace [Julian Joaquin]")
+		(company "Julian Joaquin")
 		(comment 1 "A 12S battery eliminator circuit (BEC) for UAS applications.")
 	)
 	(lib_symbols
@@ -5011,7 +5011,7 @@
 	)
 	(text "depop. 0R\non R16 when\nusing snubber"
 		(exclude_from_sim no)
-		(at 219.456 157.734 0)
+		(at 221.996 157.734 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5565,7 +5565,7 @@
 		(uuid "bc4ec154-e36e-4153-b777-01e91b26b4fa")
 	)
 	(junction
-		(at 212.09 139.7)
+		(at 214.63 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c54a6106-aecd-41d0-8850-6ed8ed087be1")
@@ -5860,7 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 139.7) (xy 212.09 139.7)
+			(xy 193.04 139.7) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 161.29) (xy 212.09 163.83)
+			(xy 214.63 161.29) (xy 214.63 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6970,7 +6970,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 151.13) (xy 212.09 153.67)
+			(xy 214.63 151.13) (xy 214.63 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7090,7 +7090,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 139.7) (xy 228.6 139.7)
+			(xy 214.63 139.7) (xy 229.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8010,7 +8010,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 139.7) (xy 252.73 139.7)
+			(xy 237.49 139.7) (xy 252.73 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8060,7 +8060,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 139.7) (xy 212.09 143.51)
+			(xy 214.63 139.7) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9146,7 +9146,7 @@
 		(uuid "0b14210e-3ed9-45d5-b097-0c92c8d2733d")
 	)
 	(label "SNUB_RC"
-		(at 212.09 153.67 0)
+		(at 214.63 153.67 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9250,6 +9250,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -9270,6 +9271,7 @@
 		(effects
 			(font
 				(size 0.762 0.762)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -10575,7 +10577,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 212.09 147.32 0)
+		(at 214.63 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10584,7 +10586,7 @@
 		(fields_autoplaced yes)
 		(uuid "17f53d4c-aec0-44b4-a495-e8b9be3bcbee")
 		(property "Reference" "C17"
-			(at 215.9 146.05 0)
+			(at 218.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10595,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 215.9 148.59 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10604,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 213.0552 151.13 0)
+			(at 215.5952 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 147.32 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10622,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 212.09 147.32 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10631,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 212.09 147.32 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +11946,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 212.09 163.83 0)
+		(at 214.63 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11953,7 +11955,7 @@
 		(dnp no)
 		(uuid "3a230f14-9ddc-4155-bd2a-4279b5c44bf7")
 		(property "Reference" "#PWR015"
-			(at 212.09 170.18 0)
+			(at 214.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11964,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 212.09 168.402 0)
+			(at 214.63 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +11972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 163.83 0)
+			(at 214.63 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +11981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 163.83 0)
+			(at 214.63 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +11990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 212.09 163.83 0)
+			(at 214.63 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14904,7 +14906,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 232.41 139.7 90)
+		(at 233.68 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14912,7 +14914,7 @@
 		(dnp no)
 		(uuid "6ac81476-3d5b-4170-9847-a51f09665deb")
 		(property "Reference" "L1"
-			(at 232.41 134.62 90)
+			(at 233.68 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +14922,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 232.41 137.16 90)
+			(at 233.68 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +14930,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1038C_10.0x10.0mm"
-			(at 232.41 139.7 0)
+			(at 233.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf"
-			(at 232.41 139.7 0)
+			(at 233.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +14948,7 @@
 			)
 		)
 		(property "Description" "INDUCTOR 4.7uH 10A 15mΩ"
-			(at 232.41 144.018 90)
+			(at 233.68 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +14957,7 @@
 			)
 		)
 		(property "Part Number" "SRP1038A-4R7M"
-			(at 232.41 144.018 90)
+			(at 233.68 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14963,7 +14965,7 @@
 			)
 		)
 		(property "LCSC PN" "C2041319"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14972,7 +14974,7 @@
 			)
 		)
 		(property "Part Type" "Extended"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14981,7 +14983,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "0"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14990,7 +14992,7 @@
 			)
 		)
 		(property "LCSC ALT1" "C6949325"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +15001,7 @@
 			)
 		)
 		(property "PART ALT1" "PA4342.472NLT"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15010,7 @@
 			)
 		)
 		(property "ESR" "15.0mΩ"
-			(at 232.41 141.478 90)
+			(at 233.68 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +15018,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15027,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,7 +15036,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15045,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15054,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 232.41 139.7 90)
+			(at 233.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15077,7 +15079,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 212.09 157.48 0)
+		(at 214.63 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15086,7 +15088,7 @@
 		(fields_autoplaced yes)
 		(uuid "733ec0d0-5a06-4327-8fe1-e8cd3e432b56")
 		(property "Reference" "R17"
-			(at 214.63 156.21 0)
+			(at 217.17 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15095,7 +15097,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 214.63 158.75 0)
+			(at 217.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15104,7 +15106,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 213.106 157.734 90)
+			(at 215.646 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15124,7 @@
 			)
 		)
 		(property "Description" "RES 0Ω 1% 200V 250mW 1206"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +15133,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "0"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15142,7 @@
 			)
 		)
 		(property "LCSC PN" "C17888"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +15151,7 @@
 			)
 		)
 		(property "Part Type" "Basic"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15160,7 @@
 			)
 		)
 		(property "Power" "0.25W"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15169,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15178,7 @@
 			)
 		)
 		(property "Voltage" "200V"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15185,7 +15187,7 @@
 			)
 		)
 		(property "Part Number" "1206W4F0000T5E"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15194,7 +15196,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 212.09 157.48 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,10 +18636,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd91bf5a-f428-437f-8978-ff9f974a7efc")
 		(property "Reference" "Q2"
-			(at 196.85 123.19 0)
+			(at 196.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18646,7 +18647,7 @@
 			)
 		)
 		(property "Value" "CSD19537Q3"
-			(at 196.85 125.73 0)
+			(at 196.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18711,15 +18712,6 @@
 				(hide yes)
 			)
 		)
-		(property "ESR" "12.1mΩ"
-			(at 190.5 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" "100V"
 			(at 190.5 124.46 0)
 			(effects
@@ -18763,6 +18755,26 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Qg" "12nC"
+			(at 196.85 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rds(on)" "12.1mΩ"
+			(at 196.85 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -22681,21 +22693,21 @@
 		(dnp no)
 		(uuid "fa7e2723-530b-4af4-922f-a6b5f2a8dd71")
 		(property "Reference" "Q3"
-			(at 189.484 151.13 0)
+			(at 196.85 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "BSZ096N10LS5"
-			(at 189.484 153.67 0)
+			(at 196.85 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SON_JJ:Infineon_PG-TSDSON-8-26_3.3x3.3mm_P0.65mm"
@@ -22807,6 +22819,36 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Qg" "18nC"
+			(at 196.85 157.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Qoss" "30nC"
+			(at 196.85 159.766 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Qrr" "34nC"
+			(at 196.85 162.052 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

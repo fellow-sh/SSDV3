@@ -1,10 +1,10 @@
-# The Super Step Down Prototype 3 Alteration 2
+# The Super Step Down V3
 
-![Top View](kicad/SSDV3_board_top.png)
+![Top View](kicad/SSDV3_board_snazzy.png)
 
------
+The SSDV3 is an independently-made, non-isolated DC/DC converter designed for unmanned aerial systems (UAS). The module is intended for converting 50V battery input down to 5-12V output at a maximum load of 8A. It acts as a reliable battery-eliminator circuit (BEC) through effective regulation in the presence of voltage transients caused by high-power brushless motors.
 
-The SSDV3 is an independently-made, non-isolated step-down module designed for the UBCO Aerospace Club. The module is intended for converting 50V battery input down to 5-12V output at a max load of 8A, and addresses the issues previously faced by the club with it's 12S UAS.
+<center><b>Documentation and testing in progress!</b></center>
 
 ## Specifications
 
@@ -19,10 +19,14 @@ The SSDV3 is an independently-made, non-isolated step-down module designed for t
   </tr>
   <tr>
     <td>Output Voltage(s)</td>
-    <td>5V, 7.4V, 9.6V, 12V</td>
+    <td>5.1V, 7.4V, 9.6V, 12V</td>
   </tr>
   <tr>
-    <td>Max Output Current</td>
+    <td>Thermal Max Output Current</td>
+    <td>5A</td>
+  </tr>
+  <tr>
+    <td>Designed Max Output Current</td>
     <td>8A</td>
   </tr>
   <tr>
@@ -40,5 +44,15 @@ The SSDV3 is an independently-made, non-isolated step-down module designed for t
 
 ## Comparison with Last Super Step Down
 
-![Comparison](kicad/SSDV3_comparison.png)
+This design is motivated by the challenges encountered by the [UBCO Aerospace Club](https://github.com/UBCOAerospaceClub) with their Jellyfish quadcopter when powering auxiliary electronics off the drone's main battery. Lessons were learned through a variety of integration failures, investigations, and validation testing, and these experiences informed the development of version 3 of the Super Step Down series.
 
+![Comparison](kicad/SSDV3_comparison_gimp.png)
+
+**Improvements from the previous version:**
+
+- Dramatically improved regulation during line transients
+- Considerable footprint area reduction by 16.5%
+- Configurable output voltages instead of a fixed 5V output
+- Added ESD protection on inputs
+- Reverse polarity protection for the majority of the circuit
+- Lower losses by using direct wire solder pads instead of terminal block
