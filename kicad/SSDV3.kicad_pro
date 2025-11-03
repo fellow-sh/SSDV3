@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|162125000|115700000|321cd15e-32a9-4152-bd83-ebf435396c96|5007fee6-4788-418c-aa3d-c631c0ae6008",
+          ""
+        ],
+        [
+          "clearance|164400000|116350000|81b1bf68-4a4e-4c34-a81e-34ccbbe3c06f|2622ec98-5391-4c91-84aa-db81409891c2",
+          ""
+        ],
+        [
           "clearance|164400000|116350000|81b1bf68-4a4e-4c34-a81e-34ccbbe3c06f|6dd6a150-1826-4638-b655-bd085922e3bd",
           "HV to HV clearance exception"
         ],
@@ -68,11 +76,19 @@
           "HV to HV clearance exception"
         ],
         [
+          "clearance|164762500|115747500|15772291-d398-4199-9342-67a5ee168221|2622ec98-5391-4c91-84aa-db81409891c2",
+          ""
+        ],
+        [
+          "clearance|168250000|112895000|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1|007b5647-6527-40d2-8aa7-7189536227cf",
+          ""
+        ],
+        [
           "clearance|168250000|113305000|7dc7969e-17b5-4f56-b13f-18a5fedfa738|b1e3fa16-8ddb-47b7-bac3-dc22c834ffd1",
           ""
         ],
         [
-          "clearance|168500000|112584000|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8|7dc7969e-17b5-4f56-b13f-18a5fedfa738",
+          "clearance|168500000|113305000|007b5647-6527-40d2-8aa7-7189536227cf|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8",
           ""
         ],
         [
@@ -676,7 +692,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -790,6 +806,12 @@
           "group_by": false,
           "label": "Qrr",
           "name": "Qrr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rdson",
+          "name": "Rdson",
           "show": false
         }
       ],
