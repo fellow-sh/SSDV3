@@ -647,15 +647,15 @@
       },
       {
         "netclass": "HV Power",
-        "pattern": "/U1_VIN"
+        "pattern": "*U2_VIN"
       },
       {
         "netclass": "HV Power",
-        "pattern": "/U1_GATE"
+        "pattern": "*U1_GATE"
       },
       {
         "netclass": "HV Power",
-        "pattern": "/U1_VS"
+        "pattern": "*U1_VS"
       }
     ]
   },
@@ -910,6 +910,14 @@
     [
       "ea689c3b-fea3-4fc0-9d65-1fb672b240d8",
       "Root"
+    ],
+    [
+      "2c5420f9-cdfd-4ae0-879c-cf9dbf3cb514",
+      "rpp"
+    ],
+    [
+      "cb63889c-2581-4b1d-874e-57ddb0e169a2",
+      "buck_converter"
     ]
   ],
   "text_variables": {}
