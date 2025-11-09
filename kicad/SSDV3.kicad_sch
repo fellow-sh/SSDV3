@@ -6,10 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Super Step Down V3")
-		(date "2025-11-04")
+		(date "2025-11-08")
 		(rev "D")
-		(company "Julian Joaquin")
-		(comment 1 "A 12S battery eliminator circuit (BEC) for UAS applications.")
+		(company "Author: Julian Joaquin")
+		(comment 1 "Licensed under CERN-OHL-W version 2")
+		(comment 2 "Copyright © Julian Joaquin, 2025")
+		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -1953,7 +1955,7 @@
 				)
 				(uuid "4715d287-4335-4d50-8835-ac55cd6b44b7")
 			)
-			(table_cell "Concept design using the LM5146 buck controller in an 1/8 brick form factor. Accepted design for revision."
+			(table_cell "Concept design using the LM5146 buck controller in a custom 1/8th brick form factor. Accepted design for revision."
 				(exclude_from_sim no)
 				(at 66.04 57.15 0)
 				(size 80.01 10.16)
@@ -1970,7 +1972,7 @@
 				)
 				(uuid "7e76a253-c492-493a-b336-98c80efcb977")
 			)
-			(table_cell ""
+			(table_cell "SSDV3"
 				(exclude_from_sim no)
 				(at 25.4 67.31 0)
 				(size 17.78 10.16)
@@ -2038,7 +2040,7 @@
 				)
 				(uuid "cf052fe6-0b83-4da1-ac80-f477c0acb1f3")
 			)
-			(table_cell ""
+			(table_cell "SSDV3"
 				(exclude_from_sim no)
 				(at 25.4 77.47 0)
 				(size 17.78 10.16)
@@ -2106,7 +2108,7 @@
 				)
 				(uuid "f22bd574-e148-4d35-8e5c-1d1cf54e256b")
 			)
-			(table_cell ""
+			(table_cell "SSDV3"
 				(exclude_from_sim no)
 				(at 25.4 87.63 0)
 				(size 17.78 16.51)
@@ -3631,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE TVS 8V BI SOT-23"
+		(property "Description" "DIODE TVS DUAL 8V UNI SOT-23"
 			(at 209.042 140.97 90)
 			(effects
 				(font
@@ -3794,10 +3796,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f92495bb-3798-4ee1-aaf1-7dc59a592998")
 		(property "Reference" "J7"
-			(at 215.9 100.33 0)
+			(at 215.138 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,8 +3806,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderPad_01x02"
-			(at 215.9 102.87 0)
+		(property "Value" "SolderPad_1x02"
+			(at 215.138 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

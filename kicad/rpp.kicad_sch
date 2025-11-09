@@ -6,10 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Super Step Down V3")
-		(date "2025-11-04")
+		(date "2025-11-08")
 		(rev "D")
-		(company "Julian Joaquin")
-		(comment 1 "A 12S battery eliminator circuit (BEC) for UAS applications.")
+		(company "Author: Julian Joaquin")
+		(comment 1 "Licensed under CERN-OHL-W version 2")
+		(comment 2 "Copyright © Julian Joaquin, 2025")
+		(comment 4 "A 12S battery eliminator circuit (BEC) for UAS applications.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

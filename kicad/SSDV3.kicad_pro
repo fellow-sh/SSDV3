@@ -88,15 +88,15 @@
           ""
         ],
         [
-          "clearance|168500000|113305000|007b5647-6527-40d2-8aa7-7189536227cf|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|154525000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|2b64215b-036f-4654-915c-5cc2efd17b1f",
+          "clearance|168500000|112584000|56c1e1bd-86fb-403a-9dc0-ffcddc0ffef8|7dc7969e-17b5-4f56-b13f-18a5fedfa738",
           ""
         ],
         [
           "solder_mask_bridge|154650000|122125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|3557dcfa-a4d7-4478-9c13-095868b43b08",
+          ""
+        ],
+        [
+          "solder_mask_bridge|154775000|121125000|e6bc6e72-0f61-45eb-b128-54453b65a2b8|2b64215b-036f-4654-915c-5cc2efd17b1f",
           ""
         ]
       ],

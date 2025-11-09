@@ -624,17 +624,17 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 -30.48 90)
 				(length 5.08)
-				(name "NC"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -670,7 +670,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -678,17 +678,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin unspecified line
 				(at 2.54 -30.48 90)
 				(length 5.08)
-				(name "EP"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
